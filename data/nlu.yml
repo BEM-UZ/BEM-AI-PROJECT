@@ -1,0 +1,245 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Good day
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good afternoon
+    - good evening
+    - greetings
+    - salutations
+    - howdy
+    - yo
+    - hi there
+    - hiya
+    - what's up
+    - how's it going
+    - nice to meet you
+    - hi, how are you doing
+    - it's a pleasure to meet you
+    - good to see you
+    - top of the morning to you
+    - welcome
+    - sup
+    - yo, what's good
+    - what's crackin'
+    - how's it hangin'
+    - what's happening
+    - 'sup, dude
+    - hiya, partner
+    - hey, there
+    - howdy, y'all
+    - what's the word
+    - what's new
+    - what's happening, homie
+    - what's good, my G
+    - what's good in the hood
+    - how's life treating you
+    - what's the 411
+    - what's the scoop
+    - what's the deal
+    - what's shakin'
+    - how are things going
+    - good day
+    - hi there, bot
+    - hey, chatbot
+    - hello, virtual assistant
+    - greetings, machine
+    - what's happening, bot
+    - howdy, AI
+    - good morning, chatbot
+    - good afternoon, virtual assistant
+    - good evening, bot
+    - nice to meet you, AI
+    - hiya, chatbot
+    - what's the word, virtual assistant
+    - what's new, bot
+    - what's shakin', AI
+    - what's up, chatbot
+    - well met, virtual assistant
+    - pleased to make your acquaintance, bot
+    - salutations, AI
+    - hello, there, chatbot
+
+- intent: enroll
+  examples: |
+    - I want to enroll at the University of Zimbabwe
+    - How can I apply for admission?
+    - I want to apply to the University of Zimbabwe
+    - I am interested in enrolling at the University of Zimbabwe
+    - Can you help me with the enrollment process at the University of Zimbabwe?
+    - I am looking to become a student at the University of Zimbabwe
+    - How do I enroll at the University of Zimbabwe?
+    - I want to register at the University of Zimbabwe
+    - Can you guide me through the application process for the University of Zimbabwe?
+    - I am seeking admission to the University of Zimbabwe
+    - What are the steps to enroll at the University of Zimbabwe?
+    - I am considering studying at the University of Zimbabwe, how can I enroll?
+    - I am looking to join the University of Zimbabwe
+    - I want to become a student at the University of Zimbabwe
+    - Can you tell me about the enrollment process for the University of Zimbabwe?
+    - I am interested in applying to the University of Zimbabwe, what should I do?
+    - How can I enroll at the University of Zimbabwe?
+    - I am considering studying at the University of Zimbabwe, how do I get started?
+    - What are the requirements for enrollment at the University of Zimbabwe?
+    - I would like to know how to apply to the University of Zimbabwe
+    - Can you provide information on how to enroll at the University of Zimbabwe?
+    - I am hoping to attend the University of Zimbabwe, what is the process to enroll?
+    - I want to start my studies at the University of Zimbabwe
+    - What are the admission criteria for the University of Zimbabwe?
+    - How do I submit my application to the University of Zimbabwe?
+    - I am looking for information on how to enroll at the University of Zimbabwe
+    - Can you assist me with the enrollment process for the University of Zimbabwe?
+    - I am interested in enrolling in a program at the University of Zimbabwe, what are my options?
+    - What documents are required for enrollment at the University of Zimbabwe?
+    - I am considering the University of Zimbabwe for my studies, how do I proceed with enrollment?
+    - Can you help me with the enrollment process for the University of Zimbabwe's online programs?
+    - I want to apply for a degree program at the University of Zimbabwe, what do I need to do?
+
+- intent: inquire_programs
+  examples: |
+    - What programs do you offer in business management sciences and economics?
+    - Tell me more about the faculty of business management sciences and economics
+    - Which programs can I take in business management sciences and economics?
+    - What majors do you have in business management and economics?
+    - Can you tell me more about your undergraduate programs in business and economics?
+    - What are the different courses offered in business management sciences and economics?
+    - Can you provide information on the degree programs in business and economics?
+    - What are the areas of concentration offered in business management sciences and economics?
+    - I am interested in studying business management sciences and economics, what programs do you offer?
+    - Could you give me details about the business management sciences and economics programs at your institution?
+    - What kind of graduate programs are offered in business management sciences and economics?
+    - Can you tell me about the curriculum for your business management and economics programs?
+    - What kind of job prospects are there for graduates of your business management sciences and economics programs?
+    - What degrees do you offer in business and economics?
+    - Can you tell me about the business management programs you have?
+    - What are the programs available in the field of economics?
+    - Which courses are offered in business management sciences?
+    - Could you give me more information on the programs offered in economics?
+    - What are the available courses in business management and economics?
+    - I'm interested in studying business management and economics. What programs do you have?
+    - Can you give me a list of programs in business management sciences and economics?
+    - What majors are available in business management and economics?
+    - What are the different degrees and diplomas offered in business and economics? 
+- intent: inquire_fees
+  examples: |
+    - How much are the fees for [business administration](program)?
+    - What is the cost of studying [economics](program) at the University of Zimbabwe?
+    - How do I pay for my [accounting](program) program?
+- intent: inquire_scholarships
+  examples: |
+    - Are there any scholarships available for [business management sciences](faculty)?
+    - How can I apply for a scholarship in [economics](faculty)?
+    - What are the criteria for getting a scholarship in [business administration](program)?
+- intent: inquire_accommodation
+  examples: |
+    - Do you have on-campus accommodation for students?
+    - Where can I find a place to stay near the university?
+    - How much is the rent for a room in [Harare](city)?
+- intent: inquire_transportation
+  examples: |
+    - How do I get to the university from [Bulawayo](city)?
+    - What are the best modes of transportation in [Harare](city)?
+    - Is there a bus service that goes to the university?
+- intent: inquire_facilities
+  examples: |
+    - What facilities do you have on campus?
+    - Do you have a library, a gym, and a cafeteria?
+    - How can I access the internet on campus?
+- intent: inquire_campus_life
+  examples: |
+    - How is the campus life at the University of Zimbabwe?
+    - What are some of the activities and events that happen on campus?
+    - How can I join a club or a society at the university?
+- intent: inquire_graduation
+  examples: |
+    - When is the graduation ceremony for [business administration](program) students?
+    - How do I apply for graduation?
+    - What are the requirements for graduation?
+- intent: inquire_alumni
+  examples: |
+    - Do you have an alumni network for [business management sciences](faculty) graduates?
+    - How can I connect with other alumni from [economics](faculty)?
+    - What are some of the benefits of being an alumni of the University of Zimbabwe?
+- intent: inquire_career
+  examples: |
+    - What are some of the career opportunities for [business administration](program) graduates?
+    - What kind of job opportunities are available for [communications](program) graduates?
+    - What are some job roles that [communications](program) graduates can apply for?
+    - What are the potential career paths for [communications](program) graduates?
+    - What are some potential career paths for [biology](program) graduates?
+    - What kind of job roles can [biology](program) graduates apply for?
+    - What are the career options for [biology](program) graduates?
+    - What are some job titles that [education](program) graduates can apply for?
+    - What kind of job opportunities do [education](program) graduates have?
+    - What are the career prospects for [education](program) graduates?
+    - What are some of the career opportunities for [business administration](program) graduates?
+    - What kind of jobs can I get with a [business administration](program) degree?
+    - What are the career paths for someone with a [business administration](program) major?
+    - How can I use my [business administration](program) degree in the job market?
+    - What are the best jobs for [business administration](program) graduates?
+    - What are some of the high-paying jobs for people with a [business administration](program) degree?
+    - What are the most common jobs for [business administration](program) alumni?
+    - What are some of the in-demand jobs for [business administration](program) holders?
+    - What are some of the career options for [business administration](program) students?
+    - What are some of the employment opportunities for someone with a [business administration](program) qualification?
+    - What are some of the career opportunities for [nursing](program) graduates?
+    - What kind of jobs can I get with a [psychology](program) degree?
+    - What are the career paths for someone with a [computer science](program) major?
+    - How can I use my [accounting](program) degree in the job market?
+    - What are the best jobs for [marketing](program) graduates?
+    - What are some of the high-paying jobs for people with a [finance](program) degree?
+    - What are the most common jobs for [education](program) alumni?
+    - What are some of the in-demand jobs for [engineering](program) holders?
+    - What are some of the career options for [biology](program) students?
+    - What are some of the employment opportunities for someone with a [sociology](program) qualification?
+
+- intent: inquire_research
+  examples: |
+    - What are some of the research areas in [business management sciences](faculty) and [economics](faculty)?
+    - How can I get involved in research projects at the university?
+    - Do you have any research grants or funding opportunities for students?
+- intent: inquire_exchange
+  examples: |
+    - Do you have any exchange programs for [business management sciences](faculty) and [economics](faculty) students?
+    - How can I apply for an exchange program to study abroad?
+    - What are some of the partner universities that offer exchange programs?
+- intent: inquire_contact
+  examples: |
+    - How can I contact the faculty of business management sciences and economics?
+    - What is the email address and phone number of the faculty office?
+    - Who can I talk to if I have any questions or concerns about my program?
+- intent: affirm
+  examples: |
+    - Yes
+    - Sure
+    - Of course
+- intent: deny
+  examples: |
+    - No
+    - Not really
+- intent: thank
+  examples: |
+    - Thank you for your help
+    - I appreciate your assistance
+    - Thanks a lot
+- intent: bye
+  examples: |
+    - Goodbye
+    - See you later
+    - Have a nice day
+- intent: request_callback
+  examples: |
+    - Can you call me back later?
+    - I would like to talk to someone on the phone
+    - Please give me a call when you can
+- intent: provide_details
+  examples: |
+    - My name is [John](name) and I'm from [Bulawayo](city)
+    - I'm [Mary](name) and I'm interested in [accounting](program)
+    - I'm a [high school](level) student and I want to study [economics](program) at the University of Zimbabwe

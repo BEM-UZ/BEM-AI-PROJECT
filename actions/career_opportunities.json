@@ -1,0 +1,15 @@
+{
+    "business administration": [
+      "Marketing Manager",
+      "Human Resource Manager",
+      "Financial Analyst"
+    ],
+    "computer science": [
+     "The field of computer science offers a wide range of career prospects, as it is a rapidly growing and evolving field. Some of the most popular career paths in computer science include:Software Developer: Software developers design, develop, and maintain software applications and systems. They write code, test and debug software, and work on improving the performance and functionality of software programs.Data Scientist: Data scientists use statistical and computational methods to analyze and interpret complex data sets. They work with large volumes of data to uncover insights and trends that can help businesses make informed decisions."
+    ],
+    "electrical engineering": [
+      "Electrical Engineer",
+      "Systems Engineer",
+      "Research Scientist"
+    ]
+  }
