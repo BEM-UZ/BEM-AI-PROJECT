@@ -65,7 +65,8 @@ nlu:
     - pleased to make your acquaintance, bot
     - salutations, AI
     - hello, there, chatbot
-
+    - jdudif
+    - y
 - intent: enroll
   examples: |
     - I want to enroll at the University of Zimbabwe
@@ -100,32 +101,32 @@ nlu:
     - I am considering the University of Zimbabwe for my studies, how do I proceed with enrollment?
     - Can you help me with the enrollment process for the University of Zimbabwe's online programs?
     - I want to apply for a degree program at the University of Zimbabwe, what do I need to do?
-
 - intent: inquire_programs
   examples: |
-    - What programs do you offer in business management sciences and economics?
-    - Tell me more about the faculty of business management sciences and economics
-    - Which programs can I take in business management sciences and economics?
-    - What majors do you have in business management and economics?
-    - Can you tell me more about your undergraduate programs in business and economics?
-    - What are the different courses offered in business management sciences and economics?
-    - Can you provide information on the degree programs in business and economics?
-    - What are the areas of concentration offered in business management sciences and economics?
-    - I am interested in studying business management sciences and economics, what programs do you offer?
-    - Could you give me details about the business management sciences and economics programs at your institution?
-    - What kind of graduate programs are offered in business management sciences and economics?
-    - Can you tell me about the curriculum for your business management and economics programs?
-    - What kind of job prospects are there for graduates of your business management sciences and economics programs?
-    - What degrees do you offer in business and economics?
-    - Can you tell me about the business management programs you have?
-    - What are the programs available in the field of economics?
-    - Which courses are offered in business management sciences?
-    - Could you give me more information on the programs offered in economics?
-    - What are the available courses in business management and economics?
-    - I'm interested in studying business management and economics. What programs do you have?
-    - Can you give me a list of programs in business management sciences and economics?
-    - What majors are available in business management and economics?
-    - What are the different degrees and diplomas offered in business and economics? 
+    - What programs do you offer in [business management sciences and economics](facaulty_program)?
+    - Tell me more about the faculty of [business management sciences and economics](facaulty_program)
+    - Which programs can I take in [business management sciences and economics](facaulty_program)?
+    - What majors do you have in [business management and economics](facaulty_program)?
+    - Can you tell me more about your undergraduate programs in [business and economics](facaulty_program)?
+    - What are the different courses offered in [business management sciences and economics](facaulty_program)?
+    - Can you provide information on the degree programs in [business and economics](facaulty_program)?
+    - What are the areas of concentration offered in [business management sciences and economics](facaulty_program)?
+    - I am interested in studying [business management sciences and economics](facaulty_program), what programs do you offer?
+    - Could you give me details about the [business management sciences and economics](facaulty_program) programs at your institution?
+    - What kind of graduate programs are offered in [business management sciences and economics](facaulty_program)?
+    - Can you tell me about the curriculum for your [business management and economics](facaulty_program) programs?
+    - What kind of job prospects are there for graduates of your [business management sciences and economics](facaulty_program) programs?
+    - What degrees do you offer in [business and economics](facaulty_program)?
+    - Can you tell me about the [business management](facaulty_program) programs you have?
+    - What are the programs available in the field of [economics](facaulty_program)?
+    - Which courses are offered in [business management sciences](facaulty_program)?
+    - Could you give me more information on the programs offered in [economics](facaulty_program)?
+    - What are the available courses in [business management and economics](facaulty_program)?
+    - I'm interested in studying [business management and economics](facaulty_program). What programs do you have?
+    - Can you give me a list of programs in [business management sciences and economics](facaulty_program)?
+    - What majors are available in [business management and economics](facaulty_program)?
+    - What are the different degrees and diplomas offered in [business and economics](facaulty_program)?
+    - What majors do you have in [business management and economics](facaulty_program) ?
 - intent: inquire_fees
   examples: |
     - How much are the fees for [business administration](program)?
@@ -178,7 +179,6 @@ nlu:
     - What are some job titles that [education](program) graduates can apply for?
     - What kind of job opportunities do [education](program) graduates have?
     - What are the career prospects for [education](program) graduates?
-    - What are some of the career opportunities for [business administration](program) graduates?
     - What kind of jobs can I get with a [business administration](program) degree?
     - What are the career paths for someone with a [business administration](program) major?
     - How can I use my [business administration](program) degree in the job market?
@@ -198,12 +198,163 @@ nlu:
     - What are some of the in-demand jobs for [engineering](program) holders?
     - What are some of the career options for [biology](program) students?
     - What are some of the employment opportunities for someone with a [sociology](program) qualification?
-
+    - What are the best [business administration](program) careers for accounting students?
+    - What are the most in-demand [finance](program) jobs for business degree holders?
+    - What are the most rewarding [marketing](program) roles for business graduates?
+    - What are the most challenging [information systems](program) opportunities for business administration majors?
+    - What are the most impactful [health care administration](program) positions for business degree holders?
+    - What are the most popular [accounting](program) careers for business administration students?
+    - What are the highest-paying [finance](program) jobs for business degree holders?
+    - What are the most creative [marketing](program) roles for business graduates?
+    - What are the most innovative [information systems](program) opportunities for business administration majors?
+    - What are the most respected [health care administration](program) positions for business degree holders?
+    - What are the most diverse [human resources management](program) careers for business administration students?
+    - What are the most stable [economics](program) jobs for business degree holders?
+    - What are the most strategic [management](program) roles for business graduates?
+    - What are the most dynamic [entrepreneurship](program) opportunities for business administration majors?
+    - What are the most ethical [business law](program) positions for business degree holders?
+    - What are the most exciting [international business](program) careers for business administration students?
+    - What are the most competitive [business analytics](program) jobs for business degree holders?
+    - What are the most analytical [operations management](program) roles for business graduates?
+    - What are the most collaborative [project management](program) opportunities for business administration majors?
+    - What are the most influential [leadership](program) positions for business degree holders?
+    - What are the most fulfilling [nonprofit management](program) careers for business administration students?
+    - What are the most flexible [online business](program) jobs for business degree holders?
+    - What are the most fun [sports management](program) roles for business graduates?
+    - What are the most rewarding [sustainability](program) opportunities for business administration majors?
+    - What can I do after learning [business communication](program)?
+    - How can I use my [accounting](program) skills in a business administration career?
+    - Which [finance](program) job is right for me with a business degree?
+    - Where can I find [marketing](program) roles that suit my business graduate profile?
+    - Why should I pursue [information systems](program) opportunities as a business administration major?
+    - When can I apply for [health care administration](program) positions with a business degree?
+    - Which [human resources management](program) careers are in demand for business administration students?
+    - How much can I earn with an [economics](program) job and a business degree?
+    - Where can I learn more about [management](program) roles for business graduates?
+    - Why is [entrepreneurship](program) a good opportunity for business administration majors?
+    - When do I need to know [business law](program) for my business degree position?
+    - How can I find [international business](program) careers that match my business administration skills?
+    - Which [business analytics](program) jobs are the most challenging for business degree holders?
+    - Where can I work as an [operations management](program) specialist with a business graduate degree?
+    - Why are [project management](program) opportunities so popular for business administration majors?
+    - When should I consider a [leadership](program) position with a business degree?
+    - How can I make a difference with a [nonprofit management](program) career and a business administration background?
+    - Which [online business](program) jobs are the most flexible for business degree holders?
+    - Where can I have fun with a [sports management](program) role and a business graduate degree?
+    - Why should I care about [sustainability](program) opportunities as a business administration major?
+    - When do I need to improve my [business communication](program) skills for my business degree position?
+    - How can I advance my [accounting](program) career with a business administration degree?
+    - Which [finance](program) job pays the most for business degree holders?
+    - Where can I network with other [marketing](program) professionals with a business graduate degree?
+    - Why is [information systems](program) a valuable skill for business administration majors?
+    - When is the best time to apply for [health care administration](program) positions with a business degree?
+    - How can I balance my [human resources management](program) career and my business administration studies?
+    - Which [economics](program) job is the most rewarding for business degree holders?
+    - Where can I get more training for [management](program) roles as a business graduate?
+    - Why is [entrepreneurship](program) a risky but exciting opportunity for business administration majors?
+    - When do I need to consult a [business law](program) expert for my business degree position?
 - intent: inquire_research
   examples: |
     - What are some of the research areas in [business management sciences](faculty) and [economics](faculty)?
     - How can I get involved in research projects at the university?
     - Do you have any research grants or funding opportunities for students?
+- intent: inquire_passion
+  examples: |
+    - I'm very passionate about [helping people](passion) in need.
+    - I'm very curious about [learning new things](passion) every day.
+    - I'm very creative and enjoy [making art](passion) in my spare time.
+    - I'm very adventurous and love [traveling the world](passion) and exploring new cultures.
+    - I'm very ambitious and strive for [excellence](passion) in everything I do.
+    - I'm very enthusiastic about [playing music](passion) and performing for others.
+    - I'm very analytical and like [solving problems](passion) with logic and data.
+    - I'm very social and enjoy [meeting new people](passion) and making friends.
+    - I'm very athletic and love [playing sports](passion) and staying fit.
+    - I'm very compassionate and care about [protecting animals](passion) and the environment.
+    - I'm very optimistic and always [looking for opportunities](passion) to grow and improve.
+    - I'm very organized and like [planning events](passion) and managing projects.
+    - I'm very expressive and love [writing stories](passion) and sharing my thoughts.
+    - I'm very adventurous and enjoy [trying new things](passion) and taking risks.
+    - I'm very diligent and always [working hard](passion) to achieve my goals.
+    - I'm very spiritual and value [meditating](passion) and connecting with myself.
+    - I'm very humorous and like [making jokes](passion) and laughing with others.
+    - I'm very artistic and enjoy [designing things](passion) and expressing my creativity.
+    - I'm very intellectual and love [reading books](passion) and learning new facts.
+    - I'm very generous and care about [giving back](passion) to my community and society.
+    - I'm very confident and always [speaking up](passion) for what I believe in.
+    - I'm very calm and like [relaxing](passion) and taking it easy.
+    - I'm very energetic and love [dancing](passion) and moving my body.
+    - I'm very loyal and value [building trust](passion) and maintaining relationships.
+    - I'm very independent and enjoy [doing things on my own](passion) and being self-reliant.
+    - I'm very friendly and like [being kind](passion) and helpful to others.
+    - I'm very competitive and love [winning games](passion) and challenging myself.
+    - I'm very curious and enjoy [exploring nature](passion) and discovering new things.
+    - I'm very responsible and always [keeping my promises](passion) and doing my duties.
+    - I'm very innovative and love [creating solutions](passion) and inventing new things.
+    - I'm very respectful and value [listening to others](passion) and understanding different perspectives.
+    - I'm very courageous and always [facing my fears](passion) and overcoming obstacles.
+    - I'm very musical and enjoy [singing songs](passion) and listening to different genres.
+    - I'm very honest and always [telling the truth](passion) and being authentic.
+    - I'm very supportive and care about [encouraging others](passion) and celebrating their success.
+    - My dream is to study [linguistics](passion) at a top university.
+    - How can I pursue my [theology](passion) interest at a higher level?
+    - I have always been fascinated by [archaeology](passion) and want to learn more about it.
+    - I think [architecture](passion) is a great way to combine creativity and practicality.
+    - I love [art and design](passion) and want to develop my skills and portfolio.
+    - I enjoy reading and writing about [classics and ancient history](passion).
+    - I have a passion for [English language and literature](passion) and want to explore different genres and authors.
+    - I am interested in [history](passion) and how it shapes the present and future.
+    - I want to learn [modern languages](passion) and communicate with people from different cultures.
+    - I have a talent for [performing arts](passion) and want to showcase it on stage or screen.
+    - I like to challenge myself with [philosophy](passion) and its big questions.
+    - I am good at [chemistry](passion) and want to apply it to real-world problems.
+    - I am curious about [earth and marine sciences](passion) and how they affect our environment.
+    - I care about [environmental sciences](passion) and want to make a positive impact on the planet.
+    - I am skilled at [mathematics](passion) and want to use it in various fields and contexts.
+    - I am amazed by [physics and astronomy](passion) and their discoveries about the universe.
+    - I have a knack for [statistics and operational research](passion) and want to optimize processes and outcomes.
+    - I am passionate about [accounting and finance](passion) and want to manage money and resources effectively.
+    - I am intrigued by [anthropology](passion) and its insights into human societies and cultures.
+    - I aspire to study [business and management studies](passion) at a prestigious institution.
+    - I want to study [communication and media studies](passion) and work in the media industry.
+    - I am motivated by [development studies](passion) and want to improve the lives of people in developing countries.
+    - I have a strong interest in [economics and econometrics](passion) and want to understand how markets and policies work.
+    - I wish to study [education and training](passion) and become a teacher or trainer.
+    - I have a flair for [hospitality and leisure management](passion) and want to run a hotel or restaurant.
+    - I aim to study [law and legal studies](passion) and practice law or work in the legal sector.
+    - I have a keen interest in [library and information management](passion) and want to organize and manage information resources.
+    - I have a desire to study [medicine](passion) and become a doctor or health care professional.
+    - I have a preference for [nursing](passion) and want to care for patients and their families.
+    - I have an affinity for [pharmacy and pharmacology](passion) and want to work with drugs and medicines.
+    - I have a fondness for [psychology](passion) and want to understand human behavior and mental processes.
+    - I have an enthusiasm for [veterinary science](passion) and want to treat animals and prevent diseases.
+    - I have a zeal for [engineering - chemical](passion) and want to design and operate chemical processes and plants.
+    - I have an aptitude for [engineering - civil and structural](passion) and want to plan and construct buildings and infrastructure.
+    - I have a talent for [computer science and information systems](passion) and want to develop software and systems.
+    - I have a skill for [engineering - electrical and electronic](passion) and want to design and implement electrical circuits and devices.
+    - I have an ability for [engineering - petroleum](passion) and want to extract oil and gas from natural reservoirs.
+    - I have a gift for [engineering - mechanical](passion) and want to design and manufacture machines and mechanical systems.
+    - I have an expertise in [engineering - mineral and mining](passion) and want to explore and exploit mineral resources.
+    - I have a passion for [agriculture and forestry](passion) and want to work with crops, animals, plants, trees, etc.
+    - How can I study [anatomy and physiology](passion) at a top university?
+    - Which [biological sciences](passion) degree is right for me?
+    - Where can I find [dentistry](passion) programs that suit my profile?
+    - Why should I pursue [veterinary science](passion) as a career?
+    - When can I apply for [engineering - chemical](passion) courses at a prestigious institution?
+    - How can I use my [engineering - civil and structural](passion) skills in the real world?
+    - Which [computer science and information systems](passion) job pays the most?
+    - Where can I network with other [engineering - electrical and electronic](passion) professionals?
+    - Why is [engineering - petroleum](passion) a valuable skill in the energy sector?
+    - When is the best time to apply for [engineering - mechanical](passion) positions?
+    - How can I advance my [engineering - mineral and mining](passion) career with further education?
+    - Which [agriculture and forestry](passion) degree is the most rewarding?
+    - Where can I work as an [communication and media studies](passion) specialist?
+    - Why are [development studies](passion) important for global issues?
+    - When should I consider a [economics and econometrics](passion) course at a higher level?
+    - How can I make a difference with a [education and training](passion) degree?
+    - Which [hospitality and leisure management](passion) job is the most fun?
+    - Where can I learn more about [law and legal studies](passion)?
+    - Why is [library and information management](passion) a good career choice for me?
+    - When do I need to improve my [business communication](passion) skills for my future job?
 - intent: inquire_exchange
   examples: |
     - Do you have any exchange programs for [business management sciences](faculty) and [economics](faculty) students?
@@ -243,3 +394,8 @@ nlu:
     - My name is [John](name) and I'm from [Bulawayo](city)
     - I'm [Mary](name) and I'm interested in [accounting](program)
     - I'm a [high school](level) student and I want to study [economics](program) at the University of Zimbabwe
+- intent: nlu_fallback
+  examples: |
+    - Do you know me
+    - What majors do you have in finish?
+    - What majors do you have in [agricalture and](passion) [business studies](facaulty_program)?

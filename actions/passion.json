@@ -1,0 +1,67 @@
+{
+    "helping others": ["You are more suited for helping"],
+    "playing music": ["You are more suited for playing"    ],
+    "protecting animals": ["You are more suited for protecting"],
+    "writing stories": ["You are more suited for writing"],
+    "environmental sciences": ["You are more suited for environmental"],
+    "mathematics": [
+      "Electrical Engineer",
+      "Systems Engineer",
+      "Research Scientist"
+    ],
+    "accounting and finance": [
+      "Electrical Engineer",
+      "Systems Engineer",
+      "Research Scientist"
+    ],
+    "statistics and operational research": [
+      "Electrical Engineer",
+      "Systems Engineer",
+      "Research Scientist"
+    ],
+    "business and management studies": [
+      "Electrical Engineer",
+      "Systems Engineer",
+      "Research Scientist"
+    ],
+    "business communication": [
+      "Electrical Engineer",
+      "Systems Engineer",
+      "Research Scientist"
+    ],
+    "engineering - electrical and electronic": [
+      "Electrical Engineer",
+      "Systems Engineer",
+      "Research Scientist"
+    ],
+    "engineering - petroleum": [
+      "Electrical Engineer",
+      "Systems Engineer",
+      "Research Scientist"
+    ],
+    "economics and econometrics": [
+      "Electrical Engineer",
+      "Systems Engineer",
+      "Research Scientist"
+    ],
+    "meeting new people": [
+      "Electrical Engineer",
+      "Systems Engineer",
+      "Research Scientist"
+    ],
+    "linguistics": [
+      "Electrical Engineer",
+      "Systems Engineer",
+      "Research Scientist"
+    ],
+    "library and information management": [
+      "Electrical Engineer",
+      "Systems Engineer",
+      "Research Scientist"
+    ],
+    "business law": [
+      "Electrical Engineer",
+      "Systems Engineer",
+      "Research Scientist"
+    ]
+  }

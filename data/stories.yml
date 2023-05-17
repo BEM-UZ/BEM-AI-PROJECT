@@ -1,4 +1,4 @@
-version: "3.0"
+version: "3.1"
 stories:
 - story: greet 
   steps:
@@ -21,6 +21,12 @@ stories:
   - intent: thank
   - action: utter_thank
 
+- story: inquire about passion
+  steps:
+  # - checkpoint: enrollment_submitted
+  - intent: inquire_passion
+  - action: action_inquire_passion
+
 
 - story: inquire about fees
   steps:
@@ -35,7 +41,7 @@ stories:
 - story: inquire about programs 
   steps:
   - intent: inquire_programs
-  - action: action_inquire_career_programs
+  - action: action_inquire_programs
 
 - story: inquire about accommodation
   steps:
@@ -93,3 +99,14 @@ stories:
   steps:
   - intent: inquire_contact
   - action: utter_inquire_contact
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: nlu_fallback
+  - action: action_default_fallback
+  - intent: greet
+  - action: utter_greet
+  - intent: nlu_fallback
+
+

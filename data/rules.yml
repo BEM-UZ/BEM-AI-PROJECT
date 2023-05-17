@@ -1,4 +1,4 @@
-version: "3.0"
+version: "3.1"
 rules:
 - rule: greet user
   steps:
@@ -25,7 +25,7 @@ rules:
 - rule: inquire about programs
   steps:
   - intent: inquire_programs
-  - action: action_inquire_career_programs
+  - action: action_inquire_programs
 
 - rule: inquire about fees
   steps:
