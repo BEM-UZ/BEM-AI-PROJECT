@@ -1,0 +1,69 @@
+{
+  "science": {
+    "departments": {
+      "mathematics": {
+        "undergraduate": [
+          "BSc in Mathematics 📐",
+          "BSc in Statistics 📊",
+          "BSc in Actuarial Science 💰"
+        ],
+        "postgraduate": [
+          "MSc in Mathematics 📐",
+          "MSc in Statistics 📊",
+          "PhD in Mathematics 🎓"
+        ]
+      },
+      "physics": {
+        "undergraduate": [
+          "BSc in Physics 🔭",
+          "BSc in Astrophysics 🌠"
+        ],
+        "postgraduate": [
+          "MSc in Physics 🔭",
+          "MSc in Astrophysics 🌠",
+          "PhD in Physics 🎓"
+        ]
+      },
+      "chemistry": {
+        "undergraduate": [
+          "BSc in Chemistry 🧪",
+          "BSc in Biochemistry 🧬"
+        ],
+        "postgraduate": [
+          "MSc in Chemistry 🧪",
+          "MSc in Biochemistry 🧬",
+          "PhD in Chemistry 🎓"
+        ]
+      }
+    }
+  },
+  "Computer Engineering Informatics And Communications Programmes": {
+    "departments": {
+      "Department of Analytics and Informatics": {
+        "undergraduate": [
+          "BSc. Honours Cyber Security and Forensic Auditing 🔒",
+          "BSc. Honours Data Science and Informatics 💻"
+        ],
+        "postgraduate": [
+          "Postgraduate Diploma Information Science and Knowledge Management 📚",
+          "MSc Data Science and Informatics 💻",
+          "MSc Information Science and Knowledge Management 📚"
+        ]
+      },
+      "Department of Computer Engineering": {
+        "undergraduate": [
+          "BSc Hons. Computer Engineering 💻",
+          "BSc. Honours Hardware Engineering 🔧",
+          "BSc. Honours Software Engineering 💾"
+        ],
+        "postgraduate": [
+          "MSc. Computer Hardware Development 🔧",
+          "MSc. Computer Engineering 💻",
+          "MSc. Computer Software Development 💾",
+          "MPhil 👨‍🎓",
+          "DPhil/PhD 👩‍🎓"
+        ]
+      }
+    }
+  }
+}

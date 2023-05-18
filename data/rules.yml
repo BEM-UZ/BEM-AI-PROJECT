@@ -27,10 +27,10 @@ rules:
   - intent: inquire_programs
   - action: action_inquire_programs
 
-- rule: inquire about fees
-  steps:
-  - intent: inquire_fees
-  - action: utter_inquire_fees
+#- rule: inquire about fees
+#  steps:
+#  - intent: inquire_fees
+#  - action: utter_inquire_fees
 
 # - rule: inquire about scholarships
 #   steps:

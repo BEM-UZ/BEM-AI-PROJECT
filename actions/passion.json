@@ -1,67 +1,291 @@
 {
-    "helping others": ["You are more suited for helping"],
-    "playing music": ["You are more suited for playing"    ],
-    "protecting animals": ["You are more suited for protecting"],
-    "writing stories": ["You are more suited for writing"],
-    "environmental sciences": ["You are more suited for environmental"],
-    "mathematics": [
-      "Electrical Engineer",
-      "Systems Engineer",
-      "Research Scientist"
+ "accounting and finance": {
+    "programs": [
+      "BCom Honours Accounting",
+      "BCom Honours Economics",
+      "Masters in Accountancy"
     ],
-    "accounting and finance": [
-      "Electrical Engineer",
-      "Systems Engineer",
-      "Research Scientist"
+    "description": "These programs involve studying the principles and practices of accounting, economics, and finance in various sectors and contexts, such as public, private, corporate, banking, trade, and development."
+  },
+  "marketing and communication": {
+    "programs": [
+      "BCom Honours Business Marketing Informatics",
+      "BCom Honours Public Relations and Marketing",
+      "Master of Strategic Marketing"
     ],
-    "statistics and operational research": [
-      "Electrical Engineer",
-      "Systems Engineer",
-      "Research Scientist"
+    "description": "These programs involve studying the theories and methods of marketing and communication in various media and platforms, such as digital, social, print, broadcast, and online."
+  },
+  "tourism and hospitality": {
+    "programs": [
+      "BSc Honours Leisure and Hospitality Management",
+      "BSc Honours Culinary Arts and Hotel Catering",
+      "Master of Science in Tourism and Hospitality Management"
     ],
-    "business and management studies": [
-      "Electrical Engineer",
-      "Systems Engineer",
-      "Research Scientist"
+    "description": "These programs involve studying the management and operation of tourism and hospitality businesses and services, such as hotels, restaurants, resorts, attractions, events, and destinations."
+  },
+  "business management and entrepreneurship": {
+    "programs": [
+      "BSc Honours Business Enterprise Development",
+      "BSc Honours Business Management Systems Design and Applications",
+      "Master of Business Administration"
     ],
-    "business communication": [
-      "Electrical Engineer",
-      "Systems Engineer",
-      "Research Scientist"
+    "description": "These programs involve studying the skills and strategies of business management and entrepreneurship in various industries and environments, such as innovation, leadership, organization, planning, and decision making."
+  },
+  "agriculture and food science": {
+    "programs": [
+      "BSc Honours Agriculture and Applied Economics",
+      "BSc Honours Food Processing Systems and Technology",
+      "MSc Agricultural Mechanisation Systems Analysis and Management"
     ],
-    "engineering - electrical and electronic": [
-      "Electrical Engineer",
-      "Systems Engineer",
-      "Research Scientist"
+    "description": "These programs involve studying the science and technology of agriculture and food production and consumption, such as crops, animals, soil, water, nutrition, safety, quality, and economics."
+  },
+  "business enterprise development": {
+    "programs": [
+      "BSc Honours Business Enterprise Development",
+      "MSc Human Capital Development Systems",
+      "MSc International Business Management"
     ],
-    "engineering - petroleum": [
-      "Electrical Engineer",
-      "Systems Engineer",
-      "Research Scientist"
+    "description": "These programs involve studying the skills and strategies of developing and managing business enterprises in various industries and environments, such as innovation, leadership, organization, planning, and decision making."
+  },
+  "business marketing informatics": {
+    "programs": [
+      "BCom Honours Business Marketing Informatics",
+      "Master of Strategic Marketing",
+      "MSc Business Marketing Informatics"
     ],
-    "economics and econometrics": [
-      "Electrical Engineer",
-      "Systems Engineer",
-      "Research Scientist"
+    "description": "These programs involve studying the theories and methods of marketing and informatics in various media and platforms, such as digital, social, print, broadcast, and online."
+  },
+  "public relations and marketing": {
+    "programs": [
+      "BCom Honours Public Relations and Marketing",
+      "MSc Public Relations and Marketing",
+      "MSc Strategic and International Marketing"
     ],
-    "meeting new people": [
-      "Electrical Engineer",
-      "Systems Engineer",
-      "Research Scientist"
+    "description": "These programs involve studying the skills and strategies of public relations and marketing in various sectors and contexts, such as communication, reputation, branding, advertising, and promotion."
+  },
+  "supply chain management": {
+    "programs": [
+      "BSc Honours Supply Chain Management",
+      "MSc Supply Chain Systems Design and Application",
+      "MSc Supply Chain Management"
     ],
-    "linguistics": [
-      "Electrical Engineer",
-      "Systems Engineer",
-      "Research Scientist"
+    "description": "These programs involve studying the management and operation of supply chains in various industries and environments, such as logistics, procurement, distribution, inventory, quality, and risk."
+  },
+  "human capital development science": {
+    "programs": [
+      "BSc Honours Human Capital Development Science",
+      "MSc Human Capital Development Systems",
+      "MSc Human Resource Management"
     ],
-    "library and information management": [
-      "Electrical Engineer",
-      "Systems Engineer",
-      "Research Scientist"
+    "description": "These programs involve studying the science and practice of human capital development in various organizations and contexts, such as learning, training, performance, motivation, retention, and diversity."
+  },
+  "innovation and leadership": {
+    "programs": [
+      "BSc Honours Business Enterprise Development",
+      "MSc Human Capital Development Systems",
+      "MSc International Business Management"
     ],
-    "business law": [
-      "Electrical Engineer",
-      "Systems Engineer",
-      "Research Scientist"
-    ]
+    "description": "These programs involve studying the skills and strategies of developing and managing business enterprises in various industries and environments, such as innovation, leadership, organization, planning, and decision making."
+  },
+  "digital and social media": {
+    "programs": [
+      "BCom Honours Business Marketing Informatics",
+      "Master of Strategic Marketing",
+      "MSc Business Marketing Informatics"
+    ],
+    "description": "These programs involve studying the theories and methods of marketing and informatics in various media and platforms, such as digital, social, print, broadcast, and online."
+  },
+  "communication and reputation": {
+    "programs": [
+      "BCom Honours Public Relations and Marketing",
+      "MSc Public Relations and Marketing",
+      "MSc Strategic and International Marketing"
+    ],
+    "description": "These programs involve studying the skills and strategies of public relations and marketing in various sectors and contexts, such as communication, reputation, branding, advertising, and promotion."
+  },
+  "logistics and distribution": {
+    "programs": [
+      "BSc Honours Supply Chain Management",
+      "MSc Supply Chain Systems Design and Application",
+      "MSc Supply Chain Management"
+    ],
+    "description": "These programs involve studying the management and operation of supply chains in various industries and environments, such as logistics, procurement, distribution, inventory, quality, and risk."
+  },
+  "learning and performance": {
+    "programs": [
+      "BSc Honours Human Capital Development Science",
+      "MSc Human Capital Development Systems",
+      "MSc Human Resource Management"
+    ],
+    "description": "These programs involve studying the science and practice of human capital development in various organizations and contexts, such as learning, training, performance, motivation, retention, and diversity."
+  },
+  "entrepreneurship and innovation": {
+    "programs": [
+      "BSc Honours Business Enterprise Development",
+      "Master of Business Administration-Entrepreneurship"
+    ],
+    "description": "These programs involve studying how to create, manage, and grow new ventures, products, and services in various contexts and sectors."
+  },
+  "human resources and organizational behavior": {
+    "programs": [
+      "BSc Honours Human Capital Development Science",
+      "Master of Business Administration-Management"
+    ],
+    "description": "These programs involve studying how to attract, develop, motivate, and retain human talent in organizations, as well as how to manage organizational culture, change, and performance."
+  },
+  "information systems and business analytics": {
+    "programs": [
+      "BSc Honours Business Management Systems Design and Applications",
+      "BSc Honours Business Marketing Informatics"
+    ],
+    "description": "These programs involve studying how to design, implement, and use information systems and data analytics to support business decision making and problem solving."
+  },
+  "information systems and technology": {
+    "programs": [
+      "BSc Honours Business Management Systems Design and Applications",
+      "MSc Business Management Systems Design and Applications",
+      "MSc Business Information Systems"
+    ],
+    "description": "These programs involve studying the design and application of information systems and technology in various business domains and contexts, such as data, analytics, security, software, hardware, and networks."
+  },
+  "accounting and auditing": {
+    "programs": [
+      "BSc Honours Public Sector Accounting and Finance",
+      "BSc Honours Forensic Accounting",
+      "BSc Honours Accounting and Finance",
+      "BSc Honours Audit and Risk Management"
+    ],
+    "description": "These programs involve studying how to measure, report, and assure the financial performance and position of various entities, as well as how to detect, prevent, and investigate fraud and misconduct."
+  },
+  "finance and investment": {
+    "programs": [
+      "BSc Honours Financial and Accounting Systems Development",
+      "BSc Honours Fiscal Management",
+      "BSc Honours Digital Banking",
+      "MSc Corporate Finance and Investment Management"
+    ],
+    "description": "These programs involve studying how to manage, allocate, and optimize financial resources and assets in various markets and institutions, as well as how to use digital technologies to enhance financial services and inclusion."
+  },
+  "tourism and hospitality": {
+    "programs": [
+      "BSc Honours Leisure and Hospitality Management",
+      "BSc Honours Culinary Arts and Hotel Catering",
+      "BSc Honours Economic Tourism Development",
+      "BSc Honours Integrated Tourism Marketing and Internationalisation"
+    ],
+    "description": "These programs involve studying how to plan, operate, and manage tourism and hospitality businesses and destinations, as well as how to create, deliver, and promote quality products and services for diverse customers and markets."
+  },
+  "marketing and public relations": {
+    "programs": [
+      "BSc Honours Business Marketing Informatics",
+      "BSc Honours Public Relations and Marketing",
+      "MSc Strategic and International Marketing"
+    ],
+    "description": "These programs involve studying how to identify, understand, and satisfy the needs and wants of customers and stakeholders, as well as how to communicate effectively and persuasively with various audiences and media."
+  },
+  "business development and entrepreneurship": {
+    "programs": [
+      "BSc Honours Business Enterprise Development",
+      "Master of Business Administration-Entrepreneurship"
+    ],
+    "description": "These programs involve studying how to create, manage, and grow new ventures, products, and services in various contexts and sectors."
+  },
+  "human capital development and management": {
+    "programs": [
+      "BSc Honours Human Capital Development Science",
+      "MSc Human Capital Development Systems",
+      "Master of Business Administration-Management"
+    ],
+    "description": "These programs involve studying how to attract, develop, motivate, and retain human talent in organizations, as well as how to manage organizational culture, change, and performance."
+  },
+  "business management systems design and applications": {
+    "programs": [
+      "BSc Honours Business Management Systems Design and Applications",
+      "MSc International Business Management"
+    ],
+    "description": "These programs involve studying how to design, implement, and use information systems and data analytics to support business decision making and problem solving."
+  },
+  "business marketing informatics": {
+    "programs": [
+      "BSc Honours Business Marketing Informatics",
+      "MSc Strategic and International Marketing"
+    ],
+    "description": "These programs involve studying how to identify, understand, and satisfy the needs and wants of customers and stakeholders, as well as how to use information technology and digital media to enhance marketing strategies and communication."
+  },
+  "public relations and marketing": {
+    "programs": [
+      "BSc Honours Public Relations and Marketing"
+    ],
+    "description": "This program involves studying how to communicate effectively and persuasively with various audiences and media, as well as how to manage the reputation and image of an organization or a brand."
+  },
+  "creating and growing new ventures": {
+    "programs": [
+      "BSc Honours Business Enterprise Development",
+      "Master of Business Administration-Entrepreneurship"
+    ],
+    "description": "These programs involve studying how to identify, evaluate, and exploit business opportunities, as well as how to manage the challenges and risks of starting and running new ventures."
+  },
+  "developing and managing human talent": {
+    "programs": [
+      "BSc Honours Human Capital Development Science",
+      "MSc Human Capital Development Systems",
+      "Master of Business Administration-Management"
+    ],
+    "description": "These programs involve studying how to design, implement, and evaluate strategies and practices for attracting, developing, motivating, and retaining human talent in organizations, as well as how to manage organizational culture, change, and performance."
+  },
+  "designing and using business information systems": {
+    "programs": [
+      "BSc Honours Business Management Systems Design and Applications",
+      "MSc International Business Management"
+    ],
+    "description": "These programs involve studying how to analyze, design, implement, and use information systems and data analytics to support business decision making and problem solving."
+  },
+  "applying information technology and digital media to marketing": {
+    "programs": [
+      "BSc Honours Business Marketing Informatics",
+      "MSc Strategic and International Marketing"
+    ],
+    "description": "These programs involve studying how to use information technology and digital media to enhance marketing strategies and communication, as well as how to identify, understand, and satisfy the needs and wants of customers and stakeholders in different markets."
+  },
+  "communicating effectively and persuasively with various audiences": {
+    "programs": [
+      "BSc Honours Public Relations and Marketing"
+    ],
+    "description": "This program involves studying how to plan, execute, and evaluate public relations and marketing campaigns, as well as how to manage the reputation and image of an organization or a brand."
+  },
+  "planning and executing public relations and marketing campaigns": {
+    "programs": [
+      "BSc Honours Public Relations and Marketing"
+    ],
+    "description": "This program involves studying how to communicate effectively and persuasively with various audiences and media, as well as how to manage the reputation and image of an organization or a brand."
+  },
+  "designing and managing supply chains and logistics": {
+    "programs": [
+      "BSc Honours Supply Chain Management",
+      "MSc Supply Chain Systems Design and Application"
+    ],
+    "description": "These programs involve studying how to plan, coordinate, and optimize the flow of materials, products, services, information, and money across different stages and entities in a supply chain, as well as how to deal with uncertainties and risks."
+  },
+  "identifying and exploiting business opportunities": {
+    "programs": [
+      "BSc Honours Business Enterprise Development",
+      "Master of Business Administration-Entrepreneurship"
+    ],
+    "description": "These programs involve studying how to recognize, evaluate, and pursue business opportunities, as well as how to manage the challenges and risks of starting and running new ventures."
+  },
+  "attracting, developing, motivating, and retaining human talent": {
+    "programs": [
+      "BSc Honours Human Capital Development Science",
+      "MSc Human Capital Development Systems",
+      "Master of Business Administration-Management"
+    ],
+    "description": "These programs involve studying how to design, implement, and evaluate strategies and practices for developing and managing human capital in organizations, as well as how to manage organizational culture, change, and performance."
+  },
+  "using information systems and data analytics to support business decision making": {
+    "programs": [
+      "BSc Honours Business Management Systems Design and Applications",
+      "MSc International Business Management"
+    ],
+    "description": "These programs involve studying how to analyze, design, implement, and use information systems and data analytics to support business decision making and problem solving."
   }
+}

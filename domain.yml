@@ -3,44 +3,35 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- affirm
+
 - bye
-- deny
 - enroll
 - greet
 - inquire_accommodation
-- inquire_alumni
-- inquire_campus_life
 - inquire_career
 - inquire_contact
 - inquire_exchange
-- inquire_facilities
 - inquire_fees
-- inquire_graduation
 - inquire_passion
 - inquire_programs
-- inquire_research
-- inquire_scholarships
-- inquire_transportation
-- nlu_fallback
-- provide_details
-- request_callback
 - thank
+- thank_you
 entities:
 - passion
-- facaulty_program
+- faculty_program
 - program
 - faculty
 - city
 - name
 - level
+
 slots:
-  facaulty_program:
+  faculty_program:
     type: text
     influence_conversation: true
     mappings:
     - type: from_entity
-      entity: facaulty_program
+      entity: faculty_program
   program:
     type: text
     influence_conversation: true
@@ -67,37 +58,47 @@ slots:
       entity: city
 responses:
   utter_greet:
-  - text: Hello, welcome to the University of Zimbabwe. How can I help you?
-  - text: Greetings! How may I assist you today at the University of Zimbabwe?
-  - text: Welcome to the University of Zimbabwe! How can I be of help to you?
-  - text: Hello there! What brings you to the University of Zimbabwe today?
-  - text: Good day! How can I assist you with your needs at the University of Zimbabwe?
-  - text: Welcome to the University of Zimbabwe! How can I make your experience better?
-  - text: Hello and welcome! What can I do for you today at the University of Zimbabwe?
-  - text: Greetings, and thank you for choosing the University of Zimbabwe. How may I assist you?
-  - text: Hi there! How can I help you make the most of your time at the University of Zimbabwe?
-  - text: Welcome to the University of Zimbabwe, where excellence reigns. How may I be of service to you?
-  - text: Hello and welcome to the University of Zimbabwe, where education meets innovation. How can I assist you today?
+  - text: |
+      Hello 😊, welcome to the University of Zimbabwe 🇿🇼 
+      I can help you with any of the following:
+      1. About enrollment
+      2. Current fees
+      3. Accommodation
+      4. Career prospects
+      5. Help you to choose the best program for you
+      6. Contact details
+  - text: |
+      Hello 😊, welcome to the University of Zimbabwe 🇿🇼 
+      I'm here to assist you with any questions or concerns you may have. Our university is committed to providing high-quality education and ensuring that our students have a fulfilling experience.
+      
+      I can help you with any of the following:
+      1. About enrollment: If you're interested in enrolling at our university, I can provide you with information on our admission requirements.
+      2. Current fees: I can give you an overview of our tuition and fees.
+      3. Accommodation: If you're looking for a place to stay on campus, I can help you with information on our student housing options and how to apply for them.
+      4. Career prospects: Our university is committed to preparing our students for success in their chosen careers. I can provide you with information on our career services, job placement rates.
+      5. Help you to choose the best program for you: If you're not sure which program to choose, I can help you explore your options and find the best fit for your interests and career goals.
+      6. Contact details: If you need to get in touch with someone at the university, I can provide you with contact information for our admissions office, student services, and other departments.
+      
+      Please let me know how I can assist you today.
+  - text: |
+      Welcome to the University of Zimbabwe 🇿🇼! I'm here to help you with any questions or concerns you may have about our institution.
+
+      Our university is dedicated to providing our students with a high-quality education that prepares them for success in their chosen careers. Whether you're interested in enrolling in one of our programs, finding a place to stay on campus, or exploring your career options, I'm here to assist you.
+
+      Please let me know how I can assist you today. I'm looking forward to helping you achieve your academic and professional goals.
+
+  - text: |
+      Hi there! Welcome to the University of Zimbabwe 🇿🇼. I'm here to help you in any way I can.
+
+      Our university offers a wide range of programs and services to support your academic and personal growth. Whether you're looking for information on enrollment, tuition and fees, student housing, career prospects, or anything else, I'm here to provide you with the assistance you need.
+
+      Please feel free to ask me any questions you may have. I'm excited to help you explore all that our university has to offer and find the best path forward for your academic and professional success.
   utter_enroll:
-  - text: To enroll at the University of Zimbabwe, you need to meet the minimum entry requirements and submit an online application form. You can find more information on our website.
+  - text: I see you are interested in enrollment.To enroll at the University of Zimbabwe, you need to meet the minimum entry requirements and submit an online application form. You can find more information on our website.
   utter_inquire_programs:
   - text: The faculty of business management sciences and economics offers various programs at undergraduate and postgraduate levels. Some of the programs are business administration, accounting, economics, finance, marketing, and management.
   utter_inquire_fees:
   - text: The fees for each program vary depending on the level and duration of study. You can check the fee structure on our website or contact the faculty office for more details.
-  utter_inquire_scholarships:
-  - text: There are some scholarships available for students who excel academically or demonstrate financial need. You can apply for a scholarship through our online portal or contact the scholarship office for more information.
-  utter_inquire_accommodation:
-  - text: The university has limited on-campus accommodation for students, which is allocated on a first-come first-served basis. You can also find off-campus accommodation options near the university or in the city center.
-  utter_inquire_transportation:
-  - text: The university is located in Harare, the capital city of Zimbabwe. You can get to the university by bus, taxi, or car. The university also provides a shuttle service for students who live off-campus.
-  utter_inquire_facilities:
-  - text: The university has various facilities on campus, such as a library, a gym, a cafeteria, a health center, and a computer lab. You can access the internet on campus using your student ID and password.
-  utter_inquire_campus_life:
-  - text: The campus life at the University of Zimbabwe is vibrant and diverse. You can participate in various activities and events organized by the student union, clubs, and societies. You can also enjoy the cultural and natural attractions of Harare and its surroundings.
-  utter_inquire_graduation:
-  - text: The graduation ceremony for each faculty is held once a year in December. You need to apply for graduation online and pay a graduation fee. You also need to complete all your academic requirements and clear any outstanding fees or charges.
-  utter_inquire_alumni:
-  - text: The university has an alumni network for graduates who want to stay connected with their alma mater and fellow alumni. You can join the alumni network online or contact the alumni office for more details. Some of the benefits of being an alumni are access to career services, networking opportunities, and discounts on events and courses.
   utter_inquire_career:
   - text: The university provides career guidance and support for students and graduates who want to pursue their professional goals. You can access career services online or visit the career center on campus. The university also hosts a career fair every year where you can meet potential employers and learn about job
   utter_inquire_contact:
@@ -114,16 +115,110 @@ responses:
   utter_thank:
   - text: You're very welcome. I'm glad I could help. 😊
   utter_inquire_enroll:
-  - text: |-
-      1.You must have passed at least five subjects, including English language at ‘O’ level and at least two ‘A’ Level passes or equivalent.
-      2.You must pay a non-refundable application fee of US$20 for Zimbabweans and US$50 for International Students at any CBZ Branch nation wide.
-      3.You must fill out an application form and submit it to the Senior Assistant Registrar (Admissions) at the University of Zimbabwe.
-      4You must also make an online application at UZ campus on www.emhare.uz.ac.zw.
+  - text: I see you are interested in enrollment. What do you want to know about it?\n ️⃣You must have passed at least 🖐 subjects, including English language 📚 at ‘O’ level and at least ✌ ‘A’ Level passes or equivalent. ✅ \n2️⃣You must pay a non-refundable application fee of US$2️⃣0️⃣ for Zimbabweans and US$5️⃣0️⃣ for International Students at any CBZ Branch nation wide. 💳\n3️⃣You must fill out an application form 📝 and submit it to the Senior Assistant Registrar (Admissions) at the University of Zimbabwe. 🏫 \n4️⃣You must also make an online application 💻 at UZ campus on www.emhare.uz.ac.zw. 🌐
+  - text: |
+     To enroll at the University of Zimbabwe, you'll need to meet the following requirements:
+      1️⃣ Pass at least 🖐 five subjects at 'O' level.
+      2️⃣ Pay a non-refundable application fee 💳 of US$2️⃣0️⃣ for Zimbabweans and US$5️⃣0️⃣ for International Students at any CBZ Branch nation wide.
+      3️⃣ Submit an application form 📝 to the Senior Assistant Registrar of Admissions at 🏫 the University of Zimbabwe.
+      4️⃣ Complete an online application 💻 through the UZ campus website 🌐.
+  - text: |
+      Ready to enroll at the University of Zimbabwe? Ensure you meet the requirements:
+
+      🖐 Pass at least five 'O' level subjects
+      💳 Pay a non-refundable application fee of US$2️⃣0️⃣ for Zimbabweans and US$5️⃣0️⃣ for International Students at any CBZ Branch nation wide
+      📝 Submit an application form to the Senior Assistant Registrar of Admissions at 🏫 the University of Zimbabwe
+      💻 Complete an online application through the UZ campus website 🌐
+
   utter_fallback:
   - text: I'm sorry, I didn't understand. Can you please rephrase your message?
+
+  utter_ask_enrollment:
+  - text: |
+      I see you are interested in enrollment. What do you want to know about it?
+      I can answer questions about:
+      - Admission requirements
+      - Application process
+      - Intake dates
+      - Scholarships and bursaries
+  utter_inform_fees:
+  - text: |
+      The fees for different faculties vary depending on the program and the level of study. Here are some examples of the fees per semester for local and international students:
+      - Agriculture Environment and Food Systems: ZWL$ 60 526 / US$ 2 500
+      - Arts and Humanities: ZWL$ 51 088 / US$ 2 500
+      - Business Management Sciences and Economics: ZWL$ 51 088 / US$ 2 500
+      - Computer Engineering Informatics and Communications: ZWL$ 60 526 / US$ 2 500
+      - Education: ZWL$ 51 088 / US$ 2 500
+      - Engineering and The Built Environment: ZWL$ 60 526 / US$ 2 500
+      - Law: ZWL$ 51 088 / US$ 2 500
+      - Medicine and Health Sciences (15 weeks): ZWL$ 68 998 / US$ 2 500
+      - Science: ZWL$ 60 526 / US$ 2 500
+      - Social and Behavioral Sciences: ZWL$ 51 088 / US$ 2 500
+      - Veterinary Science (15 weeks): ZWL$ 68 998 / US$ 2 500
+      For more details, please visit https://www.uz.ac.zw/index.php/current-students/undergraduates/fees
+  - text: |
+      Pricing for the University of Zimbabwe varies depending on your program and level of study. Here's what you can expect to pay per semester as a local or international student:\n- Agriculture Environment and Food Systems: ZWL$ 60,526 / US$ 2,500\n- Arts and Humanities: ZWL$ 51,088 / US$ 2,500\n- Business Management Sciences and Economics: ZWL$ 51,088 / US$ 2,500\n- Computer Engineering Informatics and Communications: ZWL$ 60,526 / US$ 2,500\n- Education: ZWL$ 51,088 / US$ 2,500\n- Engineering and The Built Environment: ZWL$ 60,526 / US$ 2,500\n- Law: ZWL$ 51,088 / US$ 2,500\n- Medicine and Health Sciences (15 weeks): ZWL$ 68,998 / US$ 2,500\n- Science: ZWL$ 60,526 / US$ 2,500\n- Social and Behavioral Sciences: ZWL$ 51,088 / US$ 2,500\n- Veterinary Science (15 weeks): ZWL$ 68,998 / US$ 2,500\n\nFor more information about fees for undergraduates, please visit our website: https://www.uz.ac.zw/index.php/current-students/undergraduates/fees
+  - text: | 
+       Let's talk about fees. Depending on what program and level of study you choose, the costs can vary. Here is a list of what you can expect to pay per semester as a local or international student:\n- Agriculture Environment and Food Systems: ZWL$ 60,526 / US$ 2,500\n- Arts and Humanities: ZWL$ 51,088 / US$ 2,500\n- Business Management Sciences and Economics: ZWL$ 51,088 / US$ 2,500\n- Computer Engineering Informatics and Communications: ZWL$ 60,526 / US$ 2,500\n- Education: ZWL$ 51,088 / US$ 2,500\n- Engineering and The Built Environment: ZWL$ 60,526 / US$ 2,500\n- Law: ZWL$ 51,088 / US$ 2,500\n- Medicine and Health Sciences (15 weeks): ZWL$ 68,998 / US$ 2,500\n- Science: ZWL$ 60,526 / US$ 2,500\n- Social and Behavioral Sciences: ZWL$ 51,088 / US$ 2,500\n- Veterinary Science (15 weeks): ZWL$ 68,998 / US$ 2,500\n\nFor a more detailed breakdown of fees for undergraduates, please visit our website: https://www.uz.ac.zw/index.php/current-students/undergraduates/fees
+  - text: |
+      Well, it depends on what program and level of study you choose. Here are the fees per semester for local and international students:\n- Agriculture Environment and Food Systems: ZWL$ 60,526 / US$ 2,500\n- Arts and Humanities: ZWL$ 51,088 / US$ 2,500\n- Business Management Sciences and Economics: ZWL$ 51,088 / US$ 2,500\n- Computer Engineering Informatics and Communications: ZWL$ 60,526 / US$ 2,500\n- Education: ZWL$ 51,088 / US$ 2,500\n- Engineering and The Built Environment: ZWL$ 60,526 / US$ 2,500\n- Law: ZWL$ 51,088 / US$ 2,500\n- Medicine and Health Sciences (15 weeks): ZWL$ 68,998 / US$ 2,500\n- Science: ZWL$ 60,526 / US$ 2,500\n- Social and Behavioral Sciences: ZWL$ 51,088 / US$ 2,500\n- Veterinary Science (15 weeks): ZWL$ 68,998 / US$ 2,500\n\nWant more information? Check out our website for a more detailed view of the fees for undergraduates: https://www.uz.ac.zw/index.php/current-students/undergraduates/fees
+
+  utter_offer_accommodation:
+  - text: |
+      I see you are looking for accommodation. There are different options available for you depending on your preferences and budget. You can choose to stay on campus or off campus. 
+      On campus, there are various halls of residence that provide furnished rooms, shared facilities, and catering services. The fees for on campus accommodation range from ZWL$ 10 000 to ZWL$ 15 000 per semester. You can apply for on campus accommodation through the Student Affairs Division. For more details, please visit https://www.uz.ac.zw/index.php/current-students/undergraduates/accommodation
+      Off campus, there are various private lodges, flats, and houses that offer rental accommodation for students. The fees for off campus accommodation vary depending on the location, size, and amenities of the place. You can search for off campus accommodation through online platforms, agents, or referrals. For more details, please visit https://www.property.co.zw/student-accommodation/harare
+  utter_goodbye:
+  - text: |
+      Thank you for chatting with me. I hope I was helpful. Have a great day! 😊
+      Goodbye!
+  - text: |
+      It was a pleasure talking to you. I hope you found what you were looking for. Stay safe and healthy! 😊
+      Goodbye!
+      University of Zimbabwe BEM
+      Knowledge | Diligence | Integrity | Innovation | Quality and Excellence | Compassion
+  - text: |
+      I'm glad I could assist you. I hope you have a wonderful day. Take care! 😊
+      Goodbye!
+      University of Zimbabwe BEM
+      Knowledge | Diligence | Integrity | Innovation | Quality and Excellence | Compassion
+  - text: |
+      Thank you for your time and interest. I hope you have a good experience with the University of Zimbabwe. All the best! 😊
+      Goodbye!
+      University of Zimbabwe BEM
+      Knowledge | Diligence | Integrity | Innovation | Quality and Excellence | Compassion
+  utter_thank_you:
+
+  - text: |
+      It was a pleasure assisting you today. If you have any more questions or concerns, don't hesitate to reach out to us again. We're always here to help.
+
+      And before you go, I'd like to remind you of a few things:
+
+      1. If you need more information about our university, our website is a great resource. You can find details about our programs, facilities, and faculty members there.
+      2. If you're interested in applying to our university, please visit our admissions page for more information on our application process and requirements.
+      3. If you have any feedback on your experience with our chatbot, we'd love to hear it. Your feedback helps us improve our services and better serve our students.
+
+      Thank you for choosing the University of Zimbabwe. We wish you all the best in your academic and professional pursuits.
+  - text: |
+      Thank you for chatting with me today! If you have any more questions or concerns, please don't hesitate to reach out. We're always here to help.
+
+      Before you go, I'd like to remind you that our university is committed to providing high-quality education and ensuring that our students have a fulfilling experience. We offer a wide range of programs and services to support your academic and personal growth.
+
+      We hope to hear from you again soon. Have a great day!
+
+  - text: |
+      Thank you for using our chatbot today. We hope that we were able to provide you with the information you needed. If you have any more questions or concerns, please feel free to reach out to us again.
+
+      As a reminder, our university offers a range of programs and services to help you succeed. Whether you're interested in pursuing a degree, finding a job, or connecting with other students, we're here to support you.
+
+      We appreciate your interest in our university and wish you all the best in your future endeavors. Have a great day! 
+  
+
+
 actions:
 - action_inquire_programs
 - utter_greet
 - action_inquire_passion
 - action_inquire_career_opportunities
 - action_default_fallback
+- action_inquire_contact

@@ -65,8 +65,7 @@ nlu:
     - pleased to make your acquaintance, bot
     - salutations, AI
     - hello, there, chatbot
-    - jdudif
-    - y
+
 - intent: enroll
   examples: |
     - I want to enroll at the University of Zimbabwe
@@ -103,70 +102,109 @@ nlu:
     - I want to apply for a degree program at the University of Zimbabwe, what do I need to do?
 - intent: inquire_programs
   examples: |
-    - What programs do you offer in [business management sciences and economics](facaulty_program)?
-    - Tell me more about the faculty of [business management sciences and economics](facaulty_program)
-    - Which programs can I take in [business management sciences and economics](facaulty_program)?
-    - What majors do you have in [business management and economics](facaulty_program)?
-    - Can you tell me more about your undergraduate programs in [business and economics](facaulty_program)?
-    - What are the different courses offered in [business management sciences and economics](facaulty_program)?
-    - Can you provide information on the degree programs in [business and economics](facaulty_program)?
-    - What are the areas of concentration offered in [business management sciences and economics](facaulty_program)?
-    - I am interested in studying [business management sciences and economics](facaulty_program), what programs do you offer?
-    - Could you give me details about the [business management sciences and economics](facaulty_program) programs at your institution?
-    - What kind of graduate programs are offered in [business management sciences and economics](facaulty_program)?
-    - Can you tell me about the curriculum for your [business management and economics](facaulty_program) programs?
-    - What kind of job prospects are there for graduates of your [business management sciences and economics](facaulty_program) programs?
-    - What degrees do you offer in [business and economics](facaulty_program)?
-    - Can you tell me about the [business management](facaulty_program) programs you have?
-    - What are the programs available in the field of [economics](facaulty_program)?
-    - Which courses are offered in [business management sciences](facaulty_program)?
-    - Could you give me more information on the programs offered in [economics](facaulty_program)?
-    - What are the available courses in [business management and economics](facaulty_program)?
-    - I'm interested in studying [business management and economics](facaulty_program). What programs do you have?
-    - Can you give me a list of programs in [business management sciences and economics](facaulty_program)?
+    - What programs do you offer in [business management sciences and economics](faculty_program)?
+    - Tell me more about the faculty of [business management sciences and economics](faculty_program)
+    - Which programs can I take in [business management sciences and economics](faculty_program)?
+    - What majors do you have in [business management and economics](faculty_program)?
+    - Can you tell me more about your undergraduate programs in [business and economics](faculty_program)?
+    - What are the different courses offered in [business management sciences and economics](faculty_program)?
+    - Can you provide information on the degree programs in [business and economics](faculty_program)?
+    - What are the areas of concentration offered in [business management sciences and economics](faculty_program)?
+    - I am interested in studying [business management sciences and economics](faculty_program), what programs do you offer?
+    - Could you give me details about the [business management sciences and economics](faculty_program) programs at your institution?
+    - What kind of graduate programs are offered in [business management sciences and economics](faculty_program)?
+    - Can you tell me about the curriculum for your [business management and economics](faculty_program) programs?
+    - What kind of job prospects are there for graduates of your [business management sciences and economics](faculty_program) programs?
+    - What degrees do you offer in [business and economics](faculty_program)?
+    - Can you tell me about the [business management](faculty_program) programs you have?
+    - What are the programs available in the field of [economics](faculty_program)?
+    - Which courses are offered in [business management sciences](faculty_program)?
+    - Could you give me more information on the programs offered in [economics](faculty_program)?
+    - What are the available courses in [business management and economics](faculty_program)?
+    - I'm interested in studying [business management and economics](faculty_program). What programs do you have?
+    - Can you give me a list of programs in [business management sciences and economics](faculty_program)?
     - What majors are available in [business management and economics](facaulty_program)?
-    - What are the different degrees and diplomas offered in [business and economics](facaulty_program)?
-    - What majors do you have in [business management and economics](facaulty_program) ?
+    - What are the different degrees and diplomas offered in [business and economics](faculty_program)?
+    - What majors do you have in [business management and economics](faculty_program) ?
 - intent: inquire_fees
   examples: |
     - How much are the fees for [business administration](program)?
     - What is the cost of studying [economics](program) at the University of Zimbabwe?
     - How do I pay for my [accounting](program) program?
-- intent: inquire_scholarships
-  examples: |
-    - Are there any scholarships available for [business management sciences](faculty)?
-    - How can I apply for a scholarship in [economics](faculty)?
-    - What are the criteria for getting a scholarship in [business administration](program)?
+    - How much do I have to pay for [mathematics](program)?
+    - What are the charges for [psychology](program)?
+    - How much is [law](program) tuition?
+    - What is the price of [nursing](program)?
+    - How much does [accounting](program) cost?
+    - What is the fee for [biology](program)?
+    - How much do I need to pay for [chemistry](program)?
+    - What are the expenses for [history](program)?
+    - How much is the tuition fee for [philosophy](program)?
+    - What is the rate for [economics](program)?
+    - How much are the fees for [art](program)?
+    - What is the cost of [music](program)?
+    - How much does [literature](program) cost?
+    - What is the fee for [sociology](program)?
+    - How much do I need to pay for [education](program)?
+    - What are the expenses for [physics](program)?
+    - How much is the tuition fee for [geography](program)?
+    - What is the rate for [political science](program)?
+    - How much are the fees for [business management](program)?
+    - What is the cost of [environmental science](program)?
+    - How much do I have to pay for [architecture](program)?
+    - What are the charges for [journalism](program)?
+    - How much is [engineering](program) tuition?
+    - What is the price of [design](program)?
+    - How much does [marketing](program) cost?
+    - What is the fee for [linguistics](program)?
+    - How much do I need to pay for [anthropology](program)?
+    - What are the expenses for [astronomy](program)?
+    - How much is the tuition fee for [theology](program)?
+    - What is the rate for [finance](program)?
+    - How much are the fees for [medicine](program)?
+    - What is the cost of [dentistry](program)?
+    - How much does [pharmacy](program) cost?
+    - What is the fee for [veterinary medicine](program)?
+    - How much do I need to pay for [agriculture](program)?
+    - What are the expenses for [forestry](program)?
+    - How much is the tuition fee for [marine biology](program)?
+    - What is the rate for [computer science](program)?
+    - How much are the fees for [information technology](program)?
+    - What is the cost of [cybersecurity](program)?
+
+
 - intent: inquire_accommodation
   examples: |
     - Do you have on-campus accommodation for students?
     - Where can I find a place to stay near the university?
     - How much is the rent for a room in [Harare](city)?
-- intent: inquire_transportation
-  examples: |
-    - How do I get to the university from [Bulawayo](city)?
-    - What are the best modes of transportation in [Harare](city)?
-    - Is there a bus service that goes to the university?
-- intent: inquire_facilities
-  examples: |
-    - What facilities do you have on campus?
-    - Do you have a library, a gym, and a cafeteria?
-    - How can I access the internet on campus?
-- intent: inquire_campus_life
-  examples: |
-    - How is the campus life at the University of Zimbabwe?
-    - What are some of the activities and events that happen on campus?
-    - How can I join a club or a society at the university?
-- intent: inquire_graduation
-  examples: |
-    - When is the graduation ceremony for [business administration](program) students?
-    - How do I apply for graduation?
-    - What are the requirements for graduation?
-- intent: inquire_alumni
-  examples: |
-    - Do you have an alumni network for [business management sciences](faculty) graduates?
-    - How can I connect with other alumni from [economics](faculty)?
-    - What are some of the benefits of being an alumni of the University of Zimbabwe?
+    - Do you have on-campus accommodation for students?
+    - Is there a place to stay on campus for students?
+    - Can students live on campus?
+    - What are the options for on-campus housing for students?
+    - Do you offer on-campus dormitories for students?
+    - How can I apply for on-campus accommodation as a student?
+    - Is on-campus accommodation available for students?
+    - Do you provide on-campus lodging for students?
+    - Can I stay on campus as a student?
+    - What are the on-campus living arrangements for students?
+    - Do you have on-campus residence halls for students?
+    - How do I get on-campus accommodation as a student?
+    - Is there on-campus housing for students?
+    - Do you offer on-campus apartments for students?
+    - Can I live on campus as a student?
+    - What are the on-campus accommodation facilities for students?
+    - Do you have on-campus hostels for students?
+    - How do I apply for on-campus housing as a student?
+    - Is there on-campus living space for students?
+    - Do you provide on-campus rooms for students?
+    - Can I rent a place on campus as a student?
+    - What are the on-campus accommodation options for students?
+    - Do you have on-campus flats for students?
+    - How do I find on-campus accommodation as a student?
+    - Is there on-campus dorm space for students?
+    - Do you offer on-campus suites for students?
+
 - intent: inquire_career
   examples: |
     - What are some of the career opportunities for [business administration](program) graduates?
@@ -253,149 +291,189 @@ nlu:
     - Where can I get more training for [management](program) roles as a business graduate?
     - Why is [entrepreneurship](program) a risky but exciting opportunity for business administration majors?
     - When do I need to consult a [business law](program) expert for my business degree position?
-- intent: inquire_research
-  examples: |
-    - What are some of the research areas in [business management sciences](faculty) and [economics](faculty)?
-    - How can I get involved in research projects at the university?
-    - Do you have any research grants or funding opportunities for students?
+
 - intent: inquire_passion
   examples: |
     - I'm very passionate about [helping people](passion) in need.
-    - I'm very curious about [learning new things](passion) every day.
-    - I'm very creative and enjoy [making art](passion) in my spare time.
-    - I'm very adventurous and love [traveling the world](passion) and exploring new cultures.
-    - I'm very ambitious and strive for [excellence](passion) in everything I do.
-    - I'm very enthusiastic about [playing music](passion) and performing for others.
-    - I'm very analytical and like [solving problems](passion) with logic and data.
-    - I'm very social and enjoy [meeting new people](passion) and making friends.
-    - I'm very athletic and love [playing sports](passion) and staying fit.
-    - I'm very compassionate and care about [protecting animals](passion) and the environment.
-    - I'm very optimistic and always [looking for opportunities](passion) to grow and improve.
-    - I'm very organized and like [planning events](passion) and managing projects.
-    - I'm very expressive and love [writing stories](passion) and sharing my thoughts.
-    - I'm very adventurous and enjoy [trying new things](passion) and taking risks.
-    - I'm very diligent and always [working hard](passion) to achieve my goals.
-    - I'm very spiritual and value [meditating](passion) and connecting with myself.
-    - I'm very humorous and like [making jokes](passion) and laughing with others.
-    - I'm very artistic and enjoy [designing things](passion) and expressing my creativity.
-    - I'm very intellectual and love [reading books](passion) and learning new facts.
-    - I'm very generous and care about [giving back](passion) to my community and society.
-    - I'm very confident and always [speaking up](passion) for what I believe in.
-    - I'm very calm and like [relaxing](passion) and taking it easy.
-    - I'm very energetic and love [dancing](passion) and moving my body.
-    - I'm very loyal and value [building trust](passion) and maintaining relationships.
-    - I'm very independent and enjoy [doing things on my own](passion) and being self-reliant.
-    - I'm very friendly and like [being kind](passion) and helpful to others.
-    - I'm very competitive and love [winning games](passion) and challenging myself.
-    - I'm very curious and enjoy [exploring nature](passion) and discovering new things.
-    - I'm very responsible and always [keeping my promises](passion) and doing my duties.
-    - I'm very innovative and love [creating solutions](passion) and inventing new things.
-    - I'm very respectful and value [listening to others](passion) and understanding different perspectives.
-    - I'm very courageous and always [facing my fears](passion) and overcoming obstacles.
-    - I'm very musical and enjoy [singing songs](passion) and listening to different genres.
-    - I'm very honest and always [telling the truth](passion) and being authentic.
-    - I'm very supportive and care about [encouraging others](passion) and celebrating their success.
-    - My dream is to study [linguistics](passion) at a top university.
-    - How can I pursue my [theology](passion) interest at a higher level?
-    - I have always been fascinated by [archaeology](passion) and want to learn more about it.
-    - I think [architecture](passion) is a great way to combine creativity and practicality.
-    - I love [art and design](passion) and want to develop my skills and portfolio.
-    - I enjoy reading and writing about [classics and ancient history](passion).
-    - I have a passion for [English language and literature](passion) and want to explore different genres and authors.
-    - I am interested in [history](passion) and how it shapes the present and future.
-    - I want to learn [modern languages](passion) and communicate with people from different cultures.
-    - I have a talent for [performing arts](passion) and want to showcase it on stage or screen.
-    - I like to challenge myself with [philosophy](passion) and its big questions.
-    - I am good at [chemistry](passion) and want to apply it to real-world problems.
-    - I am curious about [earth and marine sciences](passion) and how they affect our environment.
-    - I care about [environmental sciences](passion) and want to make a positive impact on the planet.
-    - I am skilled at [mathematics](passion) and want to use it in various fields and contexts.
-    - I am amazed by [physics and astronomy](passion) and their discoveries about the universe.
-    - I have a knack for [statistics and operational research](passion) and want to optimize processes and outcomes.
-    - I am passionate about [accounting and finance](passion) and want to manage money and resources effectively.
-    - I am intrigued by [anthropology](passion) and its insights into human societies and cultures.
-    - I aspire to study [business and management studies](passion) at a prestigious institution.
-    - I want to study [communication and media studies](passion) and work in the media industry.
-    - I am motivated by [development studies](passion) and want to improve the lives of people in developing countries.
-    - I have a strong interest in [economics and econometrics](passion) and want to understand how markets and policies work.
-    - I wish to study [education and training](passion) and become a teacher or trainer.
-    - I have a flair for [hospitality and leisure management](passion) and want to run a hotel or restaurant.
-    - I aim to study [law and legal studies](passion) and practice law or work in the legal sector.
-    - I have a keen interest in [library and information management](passion) and want to organize and manage information resources.
-    - I have a desire to study [medicine](passion) and become a doctor or health care professional.
-    - I have a preference for [nursing](passion) and want to care for patients and their families.
-    - I have an affinity for [pharmacy and pharmacology](passion) and want to work with drugs and medicines.
-    - I have a fondness for [psychology](passion) and want to understand human behavior and mental processes.
-    - I have an enthusiasm for [veterinary science](passion) and want to treat animals and prevent diseases.
-    - I have a zeal for [engineering - chemical](passion) and want to design and operate chemical processes and plants.
-    - I have an aptitude for [engineering - civil and structural](passion) and want to plan and construct buildings and infrastructure.
-    - I have a talent for [computer science and information systems](passion) and want to develop software and systems.
-    - I have a skill for [engineering - electrical and electronic](passion) and want to design and implement electrical circuits and devices.
-    - I have an ability for [engineering - petroleum](passion) and want to extract oil and gas from natural reservoirs.
-    - I have a gift for [engineering - mechanical](passion) and want to design and manufacture machines and mechanical systems.
-    - I have an expertise in [engineering - mineral and mining](passion) and want to explore and exploit mineral resources.
-    - I have a passion for [agriculture and forestry](passion) and want to work with crops, animals, plants, trees, etc.
-    - How can I study [anatomy and physiology](passion) at a top university?
-    - Which [biological sciences](passion) degree is right for me?
-    - Where can I find [dentistry](passion) programs that suit my profile?
-    - Why should I pursue [veterinary science](passion) as a career?
-    - When can I apply for [engineering - chemical](passion) courses at a prestigious institution?
-    - How can I use my [engineering - civil and structural](passion) skills in the real world?
-    - Which [computer science and information systems](passion) job pays the most?
-    - Where can I network with other [engineering - electrical and electronic](passion) professionals?
-    - Why is [engineering - petroleum](passion) a valuable skill in the energy sector?
-    - When is the best time to apply for [engineering - mechanical](passion) positions?
-    - How can I advance my [engineering - mineral and mining](passion) career with further education?
-    - Which [agriculture and forestry](passion) degree is the most rewarding?
-    - Where can I work as an [communication and media studies](passion) specialist?
-    - Why are [development studies](passion) important for global issues?
-    - When should I consider a [economics and econometrics](passion) course at a higher level?
-    - How can I make a difference with a [education and training](passion) degree?
-    - Which [hospitality and leisure management](passion) job is the most fun?
-    - Where can I learn more about [law and legal studies](passion)?
-    - Why is [library and information management](passion) a good career choice for me?
-    - When do I need to improve my [business communication](passion) skills for my future job?
-- intent: inquire_exchange
-  examples: |
-    - Do you have any exchange programs for [business management sciences](faculty) and [economics](faculty) students?
-    - How can I apply for an exchange program to study abroad?
-    - What are some of the partner universities that offer exchange programs?
+    - I am passionate about [accounting and finance](passion) and want to manage money and resources effectively. What could be the best program for me?
+    - I love [math and physics](passion) and want to explore the mysteries of the universe. What program would suit me best?
+    - I enjoy [writing and storytelling](passion) and want to create engaging content for different audiences. What program should I choose?
+    - I am interested in [biology and chemistry](passion) and want to improve human health and well-being. What program would be ideal for me?
+    - I have a knack for [design and technology](passion) and want to create innovative solutions for real-world problems. What program would match my skills?
+    - I am fascinated by [history and culture](passion) and want to learn more about the past and present of different societies. What program would fulfill my curiosity?
+    - I am passionate about [accounting and finance](passion) and want to manage money and resources effectively. What could be the best program for me?
+    - I love [math and physics](passion) and want to explore the mysteries of the universe. What program would suit me best?
+    - I enjoy [writing and storytelling](passion) and want to create engaging content for different audiences. What program should I choose?
+    - I am interested in [biology and chemistry](passion) and want to improve human health and well-being. What program would be ideal for me?
+    - I have a knack for [design and technology](passion) and want to create innovative solutions for real-world problems. What program would match my skills?
+    - I am fascinated by [history and culture](passion) and want to learn more about the past and present of different societies. What program would fulfill my curiosity?
+    - What program can I take if I have a passion for [art and music](passion) and want to express myself creatively?
+    - Which program is best for me if I like [psychology and sociology](passion) and want to understand human behavior and interactions?
+    - How can I find a program that matches my passion for [environment and sustainability](passion) and want to make a positive impact on the planet?
+    - What are some programs that cater to my passion for [business and entrepreneurship](passion) and want to start my own venture or work in a dynamic organization?
+    - Is there a program that combines my passion for [education and social justice](passion) and want to empower others through learning and advocacy?
+    - I am passionate about [accounting and finance](passion) and want to manage money and resources effectively. What could be the best program for me?
+    - I love [math and physics](passion) and want to explore the mysteries of the universe. What program would suit me best?
+    - I enjoy [writing and storytelling](passion) and want to create engaging content for different audiences. What program should I choose?
+    - I am interested in [biology and chemistry](passion) and want to improve human health and well-being. What program would be ideal for me?
+    - I have a knack for [design and technology](passion) and want to create innovative solutions for real-world problems. What program would match my skills?
+    - I am fascinated by [history and culture](passion) and want to learn more about the past and present of different societies. What program would fulfill my curiosity?
+    - What program can I take if I have a passion for [art and music](passion) and want to express myself creatively?
+    - Which program is best for me if I like [psychology and sociology](passion) and want to understand human behavior and interactions?
+    - How can I find a program that matches my passion for [environment and sustainability](passion) and want to make a positive impact on the planet?
+    - What are some programs that cater to my passion for [business and entrepreneurship](passion) and want to start my own venture or work in a dynamic organization?
+    - Is there a program that combines my passion for [education and social justice](passion) and want to empower others through learning and advocacy?
+    - Tell me the best program if I am interested in [law and politics](passion) and want to pursue a career in the legal or public sector.
+    - Show me some programs that align with my interest in [sports and fitness](passion) and want to promote physical health and wellness.
+    - Recommend me a program that suits my passion for [languages and literature](passion) and want to master different forms of communication and expression.
+    - Suggest me a program that fits my passion for [engineering and robotics](passion) and want to build machines that can perform complex tasks.
+    - Tell me the best program if I am interested in [law and politics](passion) and want to pursue a career in the legal or public sector.
+    - Show me some programs that align with my interest in [sports and fitness](passion) and want to promote physical health and wellness.
+    - Recommend me a program that suits my passion for [languages and literature](passion) and want to master different forms of communication and expression.
+    - Suggest me a program that fits my passion for [engineering and robotics](passion) and want to build machines that can perform complex tasks.
+    - How about a program that matches my passion for [medicine and health sciences](passion) and want to help people with their medical needs?
+    - What is a good program for me if I have a passion for [philosophy and ethics](passion) and want to explore the fundamental questions of life?
+    - Can you find me a program that caters to my interest in [astronomy and space exploration](passion) and want to discover the secrets of the cosmos?
+    - Which program would you choose if you were passionate about [economics and social sciences](passion) and want to analyze the behavior and outcomes of individuals and groups?
+    - What are some options for me if I am passionate about [computer science and artificial intelligence](passion) and want to create software and systems that can learn and improve?
+    - Is there a program that appeals to my passion for [architecture and urban planning](passion) and want to design buildings and spaces that are functional and aesthetic?
+    - Help me find a program that aligns with my passion for [agriculture and food science](passion) and want to improve the quality and safety of food production and consumption.
+    - What do you think is the best program for me if I am passionate about [journalism and media studies](passion) and want to report on current events and issues?
+    - Give me some examples of programs that suit my interest in [anthropology and archaeology](passion) and want to study the origins and diversity of human cultures.
+    - Find me a program that matches my passion for [geography and environmental studies](passion) and want to understand the physical and human aspects of the Earth.
+    - Which program would be ideal for me if I have a passion for [religion and spirituality](passion) and want to learn about the beliefs and practices of different faiths?
+    - How can I choose a program that fits my interest in [musicology and sound engineering](passion) and want to study the theory, history, and production of music?
+    - What is a suitable program for me if I have a passion for [theatre and drama](passion) and want to perform or direct plays or musicals?
+    - Can you suggest me a program that caters to my passion for [fashion and textile design](passion) and want to create clothing and accessories that are stylish and functional?
+    - What are some possible programs for me if I am interested in [psycholinguistics and cognitive science](passion) and want to study how the mind processes language and information?
+    - Is there a program that appeals to my passion for [martial arts and self-defense](passion) and want to learn how to fight and protect myself?
+    - Help me find a program that aligns with my passion for [photography and film-making](passion) and want to capture and create stunning visuals.
+    - What do you think is the best program for me if I am passionate about [dance and choreography](passion) and want to express myself through movement and rhythm?
+    - Give me some examples of programs that suit my interest in [forensic science and criminology](passion) and want to investigate crimes and criminals.
+    - Find me a program that matches my passion for [marine biology and oceanography](passion) and want to study the life and dynamics of the oceans.
+    - Which program would be ideal for me if I have a passion for [game design and development](passion) and want to create interactive and immersive games?
+    - How can I choose a program that fits my interest in [nutrition and dietetics](passion) and want to learn how food affects health and well-being?
+    - What is a suitable program for me if I have a passion for [animal science and veterinary medicine](passion) and want to care for animals and their health?
+    - Can you suggest me a program that caters to my passion for [travel and tourism](passion) and want to explore different places and cultures?
+
 - intent: inquire_contact
   examples: |
     - How can I contact the faculty of business management sciences and economics?
     - What is the email address and phone number of the faculty office?
     - Who can I talk to if I have any questions or concerns about my program?
-- intent: affirm
-  examples: |
-    - Yes
-    - Sure
-    - Of course
-- intent: deny
-  examples: |
-    - No
-    - Not really
-- intent: thank
-  examples: |
-    - Thank you for your help
-    - I appreciate your assistance
-    - Thanks a lot
+    - How can I contact the [business management sciences and economics](faculty)?
+    - What is the contact information of the [business management sciences and economics](faculty)?
+    - How do I get in touch with the [business management sciences and economics](faculty)?
+    - What are the contact details of the [business management sciences and economics](faculty)?
+    - How can I reach the [business management sciences and economics](faculty)?
+    - What is the email address of the [business management sciences and economics](faculty)?
+    - How do I communicate with the [business management sciences and economics](faculty)?
+    - What are the phone numbers of the [business management sciences and economics](faculty)?
+    - How can I connect with the [business management sciences and economics](faculty)?
+    - What is the website of the [business management sciences and economics](faculty)?
+    - How do I contact the [business management sciences and economics](faculty)?
+    - What is the mailing address of the [business management sciences and economics](faculty)?
+    - How do I talk to the [business management sciences and economics](faculty)?
+    - What are the social media handles of the [business management sciences and economics](faculty)?
+    - How can I message the [business management sciences and economics](faculty)?
+    - What is the fax number of the [business management sciences and economics](faculty)?
+    - How do I email the [business management sciences and economics](faculty)?
+    - What are the office hours of the [business management sciences and economics](faculty)?
+    - How can I call the [business management sciences and economics](faculty)?
+    - What is the location of the [business management
+    - How can I contact the [computer science](faculty)?
+    - What is the contact information of the [engineering](faculty)?
+    - How do I get in touch with the [law](faculty)?
+    - What are the contact details of the [medicine](faculty)?
+    - How can I reach the [arts and humanities](faculty)?
+    - What is the email address of the [education](faculty)?
+    - How do I communicate with the [social sciences](faculty)?
+    - What are the phone numbers of the [agriculture](faculty)?
+    - How can I connect with the [pharmacy](faculty)?
+    - What is the website of the [nursing](faculty)?
+    - How do I contact the [mathematics and statistics](faculty)?
+    - What is the mailing address of the [physics and astronomy](faculty)?
+    - How do I talk to the [chemistry and biochemistry](faculty)?
+    - What are the social media handles of the [biology and ecology](faculty)?
+    - How can I message the [geography and geology](faculty)?
+    - What is the fax number of the [psychology and neuroscience](faculty)?
+    - How do I email the [philosophy and ethics](faculty)?
+    - What are the office hours of the [history and archaeology](faculty)?
+    - How can I call the [linguistics and literature](faculty)?
+    - What is the location of the [design and architecture](faculty)?
+    - How can I contact the faculty of [computer science](faculty)?
+    - What is the contact information of the faculty of [engineering](faculty)?
+    - How do I get in touch with the faculty of [law](faculty)?
+    - What are the contact details of the faculty of [medicine](faculty)?
+    - How can I reach the faculty of [arts and humanities](faculty)?
+    - What is the email address of the faculty of [education](faculty)?
+    - How do I communicate with the faculty of [social sciences](faculty)?
+    - What are the phone numbers of the faculty of [agriculture](faculty)?
+    - How can I connect with the faculty of [pharmacy](faculty)?
+    - What is the website of the faculty of [nursing](faculty)?
+    - How do I contact the faculty of [mathematics and statistics](faculty)?
+    - What is the mailing address of the faculty of [physics and astronomy](faculty)?
+    - How do I talk to the faculty of [chemistry and biochemistry](faculty)?
+    - What are the social media handles of the faculty of [biology and ecology](faculty)?
+    - How can I message the faculty of [geography and geology](faculty)?
+    - What is the fax number of the faculty of [psychology and neuroscience](faculty)?
+    - How do I email the faculty of [philosophy and ethics](faculty)?
+    - What are the office hours of the faculty of [history and archaeology](faculty)?
+    - How can I call the faculty of [linguistics and literature](faculty)?
+    - What is the location of the faculty of [design and architecture](faculty)?
+    - How can I contact the faculty of [journalism and media studies](faculty)?
+    - What is the contact information of the faculty of [finance and accounting](faculty)?
+    - How do I get in touch with the faculty of [theology and religious studies](faculty)?
+    - What are the contact details of the faculty of [veterinary medicine](faculty)?
+    - How can I reach the faculty of [music and performing arts](faculty)?
+    - What is the email address of the faculty of [environmental science and engineering](faculty)?
+    - How do I communicate with the faculty of [sociology and anthropology](faculty)?
+    - What are the phone numbers of the faculty of [forestry and wildlife](faculty)?
+    - How can I connect with the faculty of [dentistry and oral health](faculty)?
+    - What is the website of the faculty of [cybersecurity and information technology](faculty)?
+
 - intent: bye
   examples: |
     - Goodbye
     - See you later
     - Have a nice day
-- intent: request_callback
+    - Goodbye
+    - See you later
+    - Have a nice day
+    - Bye for now
+    - Catch you later
+    - Talk to you soon
+    - Adios
+    - Later gator
+    - Take care
+    - Farewell
+    - Have a great day
+    - Until next time
+    - Bye-bye
+    - See you again
+    - So long
+    - Have a good one
+    - Goodbye for now
+    - It was nice talking to you
+    - Peace out
+    - I'm signing off
+    - See you around
+    - Bye bye for now
+    - Toodle-oo
+    - Bye for the time being
+    - Good night
+    - Have a safe trip
+    - I'm off now
+    - See you on the flip side
+    - Catch up with you later
+    - Stay safe
+    - Have a pleasant evening
+    - See you tomorrow
+
+- intent: thank_you
   examples: |
-    - Can you call me back later?
-    - I would like to talk to someone on the phone
-    - Please give me a call when you can
-- intent: provide_details
-  examples: |
-    - My name is [John](name) and I'm from [Bulawayo](city)
-    - I'm [Mary](name) and I'm interested in [accounting](program)
-    - I'm a [high school](level) student and I want to study [economics](program) at the University of Zimbabwe
-- intent: nlu_fallback
-  examples: |
-    - Do you know me
-    - What majors do you have in finish?
-    - What majors do you have in [agricalture and](passion) [business studies](facaulty_program)?
+    - Thank you for your help
+    - Thanks a lot
+    - I appreciate your assistance
+    - Thank you very much
+    - Thanks for everything

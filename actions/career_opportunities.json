@@ -1,15 +1,165 @@
 {
-    "business administration": [
-      "Marketing Manager",
-      "Human Resource Manager",
-      "Financial Analyst"
-    ],
-    "computer science": [
-     "The field of computer science offers a wide range of career prospects, as it is a rapidly growing and evolving field. Some of the most popular career paths in computer science include:Software Developer: Software developers design, develop, and maintain software applications and systems. They write code, test and debug software, and work on improving the performance and functionality of software programs.Data Scientist: Data scientists use statistical and computational methods to analyze and interpret complex data sets. They work with large volumes of data to uncover insights and trends that can help businesses make informed decisions."
-    ],
-    "electrical engineering": [
-      "Electrical Engineer",
-      "Systems Engineer",
-      "Research Scientist"
-    ]
-  }
+  
+  "computer science": [
+    "The field of computer science offers a wide range of career prospects, as it is a rapidly growing and evolving field. Some of the most popular career paths in computer science include:Software Developer: Software developers design, develop, and maintain software applications and systems. They write code, test and debug software, and work on improving the performance and functionality of software programs.Data Scientist: Data scientists use statistical and computational methods to analyze and interpret complex data sets. They work with large volumes of data to uncover insights and trends that can help businesses make informed decisions."
+  ],
+  "Logistics and supply chain management": [
+    "This major prepares students for careers in managing the flow of goods and services from suppliers to consumers.",
+    "Some careers for logistics and supply chain management majors include logistician, purchasing manager, and operations research analyst."
+  ],
+  "Nursing": [
+    "This major prepares students for careers in caring for ill or injured patients and guiding them through the recovery process.",
+    "Some careers for nursing majors include legal nurse consultant, ER nurse, licensed practical nurse, and neonatal nurse."
+  ],
+  "Computer science": [
+    "This major prepares students for careers in creating and solving problems with computers and data.",
+    "Some careers for computer science majors include software developer, data scientist, web developer, and computer and information research scientist."
+  ],
+  "Business administration": [
+    "This major prepares students for careers in managing and leading various aspects of an organization.",
+    "Some caree,rs for business administration majors include business analyst, project manager, human resources specialist, and marketing manager."
+  ],
+  "Accounting": [
+    "This major prepares students for careers in recording, analyzing, and reporting financial transactions and information.",
+    "Some careers for accounting majors include accountant, auditor, budget analyst, and tax examiner."
+  ],
+  "Animal Science": [
+    "This major prepares students for careers in studying and working with animals and their products.",
+    "Some careers for animal science majors include animal scientist, veterinarian, zoologist, and animal trainer."
+  ],
+  "Anthropology": [
+    "This major prepares students for careers in studying human cultures, societies, and behaviors across time and space.",
+    "Some careers for anthropology majors include anthropologist, archaeologist, museum curator, and cultural consultant."
+  ],
+  "Architecture": [
+    "This major prepares students for careers in designing and planning buildings and structures.",
+    "Some careers for architecture majors include architect, landscape architect, urban planner, and interior designer."
+  ],
+  "Astronomy": [
+    "This major prepares students for careers in studying the universe and its celestial bodies.",
+    "Some careers for astronomy majors include astronomer, astrophysicist, planetary scientist, and aerospace engineer."
+  ],
+  "Biochemistry": [
+    "This major prepares students for careers in studying the chemical processes and interactions of living organisms.",
+    "Some careers for biochemistry majors include biochemist, biotechnologist, pharmacologist, and forensic scientist."
+  ],
+  "Biological Sciences": [
+    "This major prepares students for careers in studying the structure, function, and evolution of living organisms.",
+    "Some careers for biological sciences majors include biologist, microbiologist, geneticist, and ecologist."
+  ],
+  "Chemistry": [
+    "This major prepares students for careers in studying the composition, structure, and properties of matter and its transformations.",
+    "Some careers for chemistry majors include chemist, chemical engineer, pharmacist, and forensic scientist."
+  ],
+  "Cognitive Science": [
+    "This major prepares students for careers in studying the nature and processes of human cognition, such as perception, memory, reasoning, and language.",
+    "Some careers for cognitive science majors include cognitive scientist, cognitive psychologist, artificial intelligence researcher, and speech-language pathologist."
+  ],
+  "Communication": [
+    "This major prepares students for careers in creating and delivering messages across various media and contexts.",
+    "Some careers for communication majors include journalist, public relations specialist, media producer, and communication consultant."
+  ],
+  "Education": [
+    "This major prepares students for careers in teaching and facilitating learning in various settings and levels.",
+    "Some careers for education majors include teacher, school counselor, curriculum developer, and educational administrator."
+  ],
+  "Engineering": [
+    "This major prepares students for careers in applying scientific and mathematical principles to design and build solutions for various problems and needs.",
+    "Some careers for engineering majors include civil engineer, mechanical engineer, electrical engineer, and software engineer."
+  ],
+  "English": [
+    "This major prepares students for careers in analyzing and producing texts in various genres and forms.",
+    "Some careers for English majors include writer, editor, teacher, lawyer, and librarian."
+  ],
+  "History": [
+    "This major prepares students for careers in studying and interpreting the past events and their impacts on the present and future.",
+    "Some careers for history majors include historian, archivist, museum curator, and political analyst."
+  ],
+  "Mathematics": [
+    "This major prepares students for careers in using abstract symbols and logic to model and solve problems involving quantity, structure, space, and change.",
+    "Some careers for mathematics majors include mathematician, statistician, actuary, and data analyst."
+  ],
+  "Philosophy": [
+    "This major prepares students for careers in examining the fundamental questions of existence, knowledge, values, and reason.",
+    "Some careers for philosophy majors include philosopher, ethicist, lawyer, and teacher."
+  ],
+  "Psychology": [
+    "This major prepares students for careers in studying the behavior and mental processes of humans and animals.",
+    "Some careers for psychology majors include psychologist, counselor, social worker, and human resources specialist."
+  ],
+  "Sociology": [
+    "Sociology majors study how people interact with each other in various social contexts and settings.",
+    "Some careers for sociology majors include sociologist, social worker, market researcher, and policy analyst."
+  ],
+  "Physics": [
+    "Physics majors explore the physical laws and phenomena that govern the universe and its matter and energy.",
+    "Some careers for physics majors include physicist, engineer, teacher, and researcher."
+  ],
+  "Biology": [
+    "Biology majors learn about the structure, function, and evolution of living organisms and their interactions with the environment.",
+    "Careers: Biologist, microbiologist, geneticist, ecologist, etc."
+  ],
+  "Art History": [
+    "Art history majors explore the history and development of visual arts and their cultural contexts.",
+    "Careers: Art historian, museum curator, art critic, art teacher, etc."
+  ],
+  "Criminal Justice": [
+    "Criminal justice majors learn about the theory and practice of law enforcement, courts, and corrections.",
+    "Careers: Police officer, detective, lawyer, judge, correctional officer, etc."
+  ],
+  "Environmental Science": [
+    "Environmental science majors study the natural and human-made factors that affect the environment and its sustainability.",
+    "Careers: Environmental scientist, environmental engineer, conservationist, environmental educator, etc."
+  ],
+  "Journalism": [
+    "Journalism majors learn how to research, report, and write news stories for various media outlets.",
+    "Careers: Journalist, editor, reporter, broadcaster, etc."
+  ],
+  "Linguistics": [
+    "Linguistics majors study the structure, function, and evolution of human languages.",
+    "Careers: Linguist, translator, interpreter, language teacher, etc."
+  ],
+  "Mechanical Engineering": [
+    "Mechanical engineering majors apply the principles of physics and mathematics to design and build machines and mechanical systems.",
+    "Careers: Mechanical engineer, aerospace engineer, automotive engineer, etc."
+  ],
+  "Business Analytics": [
+    "Business analytics majors learn how to use data and analytical tools to solve business problems and support decision making.",
+    "Careers: Business analyst, data analyst, data scientist, consultant, etc."
+  ],
+  "Entrepreneurship": [
+    "Entrepreneurship majors learn how to create, launch and grow new ventures.",
+    "Careers: Entrepreneur, business owner, venture capitalist, social entrepreneur, etc."
+  ],
+  "Finance": [
+    "Finance majors learn how to manage and invest money for individuals, businesses and organizations.",
+    "Careers: Financial analyst, financial manager, financial planner, banker, etc."
+  ],
+  "Aerospace Engineering": [
+    "Aerospace engineering majors learn how to design and build aircraft, spacecraft, rockets, and missiles.",
+    "Careers: Aerospace engineer, astronaut, aerospace technician, etc."
+  ],
+  "Biomedical Engineering": [
+    "Biomedical engineering majors apply engineering principles and techniques to solve problems in medicine and health care.",
+    "Careers: Biomedical engineer, biomedical researcher, medical device engineer, etc."
+  ],
+  "Chemical Engineering": [
+    "Chemical engineering majors study the chemical processes and interactions of living organisms.",
+    "Careers: Chemical engineer, biotechnologist, pharmacologist, etc."
+  ],
+  "Civil Engineering": [
+    "Civil engineering majors design and plan buildings and structures.",
+    "Careers: Civil engineer, structural engineer, environmental engineer, etc."
+  ],
+  "Computer Engineering": [
+    "Computer engineering majors create and solve problems with computers and data.",
+    "Careers: Computer engineer, software engineer, hardware engineer, etc."
+  ],
+  "Electrical Engineering": [
+    "Electrical engineering majors explore the nature and properties of electricity and electromagnetism.",
+    "Careers: Electrical engineer, electronics engineer, power engineer, etc."
+  ],
+  "Environmental Engineering": [
+    "Environmental engineering majors study the natural and human-made factors that affect the environment and its sustainability. \nCareers: Environmental engineer, environmental scientist, conservationist"
+  ]
+}
