@@ -65,6 +65,26 @@ nlu:
     - pleased to make your acquaintance, bot
     - salutations, AI
     - hello, there, chatbot
+    - hi, how can I assist you today?
+    - Hey, how can I help you?
+    - Hi there, what brings you here?
+    - Hello, how can I support you?
+    - Hey, how can I assist you today?
+    - Hi, how can I be of service?
+    - Hello, how may I help you?
+    - Hey, how can I make your experience better?
+    - Hi there, how can I assist you today?
+    - Hello, how can I provide you with information?
+    - Hey, what can I do for you today?
+    - Hi, how can I assist you in your journey?
+    - Hello, how can I support your needs?
+    - Hey, how can I contribute to your success?
+    - Hi there, how can I help you achieve your goals?
+    - Hello, how can I assist you in finding the right program?
+    - Hey, how can I guide you through the application process?
+    - Hi, how can I help you with your accommodation inquiries?
+    - Hello, how can I provide you with career guidance?
+
 
 - intent: enroll
   examples: |
@@ -100,6 +120,55 @@ nlu:
     - I am considering the University of Zimbabwe for my studies, how do I proceed with enrollment?
     - Can you help me with the enrollment process for the University of Zimbabwe's online programs?
     - I want to apply for a degree program at the University of Zimbabwe, what do I need to do?
+    - I want to enroll at the University of Zimbabwe
+    - How can I apply for admission?
+    - I want to apply to the University of Zimbabwe
+    - I am interested in enrolling at the University of Zimbabwe
+    - Can you help me with the enrollment process at the University of Zimbabwe?
+    - I am looking to become a student at the University of Zimbabwe
+    - How do I enroll at the University of Zimbabwe?
+    - I want to register at the University of Zimbabwe
+    - Can you guide me through the application process for the University of Zimbabwe?
+    - I am seeking admission to the University of Zimbabwe
+    - What are the steps to enroll at the University of Zimbabwe?
+    - I am considering studying at the University of Zimbabwe, how can I enroll?
+    - I am looking to join the University of Zimbabwe
+    - I want to become a student at the University of Zimbabwe
+    - Can you tell me about the enrollment process for the University of Zimbabwe?
+    - I am interested in applying to the University of Zimbabwe, what should I do?
+    - How can I enroll at the University of Zimbabwe?
+    - I am considering studying at the University of Zimbabwe, how do I get started?
+    - What are the requirements for enrollment at the University of Zimbabwe?
+    - I would like to know how to apply to the University of Zimbabwe
+    - Can you provide information on how to enroll at the University of Zimbabwe?
+    - I am hoping to attend the University of Zimbabwe, what is the process to enroll?
+    - I want to start my studies at the University of Zimbabwe
+    - What are the admission criteria for the University of Zimbabwe?
+    - How do I submit my application to the University of Zimbabwe?
+    - I am looking for information on how to enroll at the University of Zimbabwe
+    - Can you assist me with the enrollment process for the University of Zimbabwe?
+    - I am interested in enrolling in a program at the University of Zimbabwe, what are my options?
+    - What documents are required for enrollment at the University of Zimbabwe?
+    - I am considering the University of Zimbabwe for my studies, how do I proceed with enrollment?
+    - Can you help me with the enrollment process for the University of Zimbabwe's online programs?
+    - I want to apply for a degree program at the University of Zimbabwe, what do I need to do?
+    - How can I enroll in the University of Zimbabwe's undergraduate program?
+    - I am looking to apply to the University of Zimbabwe, where should I start?
+    - Can you guide me through the enrollment steps for the University of Zimbabwe's postgraduate programs?
+    - I want to become a student at the University of Zimbabwe, what should I know about the enrollment process?
+    - How do I get admission to the University of Zimbabwe's engineering program?
+    - I am considering the University of Zimbabwe for my studies, how can I get more information about enrollment?
+    - What is the deadline to submit the application for enrollment at the University of Zimbabwe?
+    - Can you provide details about the enrollment fees for international students at the University of Zimbabwe?
+    - I want to pursue a Master's degree at the University of Zimbabwe, what are the specific requirements?
+    - How long does it usually take to complete the enrollment process at the University of Zimbabwe?
+    - I am interested in enrolling in the medical program at the University of Zimbabwe, what are the prerequisites?
+    - Can you explain the enrollment timeline for the University of Zimbabwe's business administration program?
+    - I want to transfer to the University of Zimbabwe from another university
+
+
+
+
 - intent: inquire_programs
   examples: |
     - What programs do you offer in [business management sciences and economics](faculty_program)?
@@ -126,6 +195,47 @@ nlu:
     - What majors are available in [business management and economics](facaulty_program)?
     - What are the different degrees and diplomas offered in [business and economics](faculty_program)?
     - What majors do you have in [business management and economics](faculty_program) ?
+    - What programs do you offer in [business management sciences and economics](faculty_program)?
+    - Tell me more about the faculty of [business management sciences and economics](faculty_program)
+    - Which programs can I take in [business management sciences and economics](faculty_program)?
+    - What majors do you have in [business management and economics](faculty_program)?
+    - Can you tell me more about your undergraduate programs in [business and economics](faculty_program)?
+    - What are the different courses offered in [business management sciences and economics](faculty_program)?
+    - Can you provide information on the degree programs in [business and economics](faculty_program)?
+    - What are the areas of concentration offered in [business management sciences and economics](faculty_program)?
+    - I am interested in studying [business management sciences and economics](faculty_program), what programs do you offer?
+    - Could you give me details about the [business management sciences and economics](faculty_program) programs at your institution?
+    - What kind of graduate programs are offered in [business management sciences and economics](faculty_program)?
+    - Can you tell me about the curriculum for your [business management and economics](faculty_program) programs?
+    - What kind of job prospects are there for graduates of your [business management sciences and economics](faculty_program) programs?
+    - What degrees do you offer in [business and economics](faculty_program)?
+    - Can you tell me about the [business management](faculty_program) programs you have?
+    - What are the programs available in the field of [economics](faculty_program)?
+    - Which courses are offered in [business management sciences](faculty_program)?
+    - Could you give me more information on the programs offered in [economics](faculty_program)?
+    - What are the available courses in [business management and economics](faculty_program)?
+    - I'm interested in studying [business management and economics](faculty_program). What programs do you have?
+    - Can you give me a list of programs in [business management sciences and economics](faculty_program)?
+    - What majors are available in [business management and economics](faculty_program)?
+    - What are the different degrees and diplomas offered in [business and economics](faculty_program)?
+    - What majors do you have in [business management and economics](faculty_program)?
+    - Are there any specialized programs in [business management sciences and economics](faculty_program)?
+    - Can you provide details on the postgraduate programs in [business and economics](faculty_program)?
+    - What research opportunities are available in [business management sciences and economics](faculty_program)?
+    - Tell me about the faculty's reputation in [business management and economics](faculty_program).
+    - Can you give me information about the internships offered in [business management sciences and economics](faculty_program)?
+    - What are the admission requirements for the programs in [business management and economics](faculty_program)?
+    - Do you offer any online programs in [business management sciences and economics](faculty_program)?
+    - Are there any scholarships available for students in [business and economics](faculty_program)?
+    - What are the program durations for [business management sciences and economics](faculty_program) degrees?
+    - Can you tell me about the faculty's partnerships with industry in [business management and economics](faculty_program)?
+    - What is the faculty's approach to practical learning in [business management sciences and economics](faculty_program)?
+    - Do you have any joint degree programs in [business and economics](faculty_program)?
+    - What are the faculty's strengths in [business management sciences and economics](faculty_program)?
+    - Can you provide information on the faculty's faculty
+
+
+
 - intent: inquire_fees
   examples: |
     - How much are the fees for [business administration](program)?
@@ -171,6 +281,58 @@ nlu:
     - What is the rate for [computer science](program)?
     - How much are the fees for [information technology](program)?
     - What is the cost of [cybersecurity](program)?
+    - How much are the fees for [business administration](program)?
+    - What is the cost of studying [economics](program) at the University of Zimbabwe?
+    - How do I pay for my [accounting](program) program?
+    - How much do I have to pay for [mathematics](program)?
+    - What are the charges for [psychology](program)?
+    - How much is [law](program) tuition?
+    - What is the price of [nursing](program)?
+    - How much does [accounting](program) cost?
+    - What is the fee for [biology](program)?
+    - How much do I need to pay for [chemistry](program)?
+    - What are the expenses for [history](program)?
+    - How much is the tuition fee for [philosophy](program)?
+    - What is the rate for [economics](program)?
+    - How much are the fees for [art](program)?
+    - What is the cost of [music](program)?
+    - How much does [literature](program) cost?
+    - What is the fee for [sociology](program)?
+    - How much do I need to pay for [education](program)?
+    - What are the expenses for [physics](program)?
+    - How much is the tuition fee for [geography](program)?
+    - What is the rate for [political science](program)?
+    - How much are the fees for [business management](program)?
+    - What is the cost of [environmental science](program)?
+    - How much do I have to pay for [architecture](program)?
+    - What are the charges for [journalism](program)?
+    - How much is [engineering](program) tuition?
+    - What is the price of [design](program)?
+    - How much does [marketing](program) cost?
+    - What is the fee for [linguistics](program)?
+    - How much do I need to pay for [anthropology](program)?
+    - What are the expenses for [astronomy](program)?
+    - How much is the tuition fee for [theology](program)?
+    - What is the rate for [finance](program)?
+    - How much are the fees for [medicine](program)?
+    - What is the cost of [dentistry](program)?
+    - How much does [pharmacy](program) cost?
+    - What is the fee for [veterinary medicine](program)?
+    - How much do I need to pay for [agriculture](program)?
+    - What are the expenses for [forestry](program)?
+    - How much is the tuition fee for [marine biology](program)?
+    - What is the rate for [computer science](program)?
+    - How much are the fees for [information technology](program)?
+    - What is the cost of [cybersecurity](program)?
+    - Can you provide information on the fees for the [business administration](program) program?
+    - How much does it cost to study [economics](program) at the University of Zimbabwe?
+    - Can you tell me the fees for the [accounting](program) program?
+    - What is the tuition fee for the [mathematics](program) program?
+    - Can you give me details about the charges for the [psychology](program) program?
+    - How much do I need to pay for the [law](program) program's tuition?
+    - What are the fees for the [nursing](program) program?
+    - Can you provide
+
 
 
 - intent: inquire_accommodation
@@ -204,6 +366,62 @@ nlu:
     - How do I find on-campus accommodation as a student?
     - Is there on-campus dorm space for students?
     - Do you offer on-campus suites for students?
+    - Do you have on-campus accommodation for students?
+    - Where can I find a place to stay near the university?
+    - How much is the rent for a room in [Harare](city)?
+    - Do you have on-campus accommodation for students?
+    - Is there a place to stay on campus for students?
+    - Can students live on campus?
+    - What are the options for on-campus housing for students?
+    - Do you offer on-campus dormitories for students?
+    - How can I apply for on-campus accommodation as a student?
+    - Is on-campus accommodation available for students?
+    - Do you provide on-campus lodging for students?
+    - Can I stay on campus as a student?
+    - What are the on-campus living arrangements for students?
+    - Do you have on-campus residence halls for students?
+    - How do I get on-campus accommodation as a student?
+    - Is there on-campus housing for students?
+    - Do you offer on-campus apartments for students?
+    - Can I live on campus as a student?
+    - What are the on-campus accommodation facilities for students?
+    - Do you have on-campus hostels for students?
+    - How do I apply for on-campus housing as a student?
+    - Is there on-campus living space for students?
+    - Do you provide on-campus rooms for students?
+    - Can I rent a place on campus as a student?
+    - What are the on-campus accommodation options for students?
+    - Do you have on-campus flats for students?
+    - How do I find on-campus accommodation as a student?
+    - Is there on-campus dorm space for students?
+    - Do you offer on-campus suites for students?
+    - Can you provide information on the availability of on-campus accommodation for students?
+    - Where can I find information about accommodation options near the university?
+    - How much does it cost to rent a room in [Harare](city)?
+    - Are there on-campus housing options for students?
+    - How can I apply for on-campus accommodation as a student?
+    - Is on-campus accommodation guaranteed for students?
+    - Are there on-campus lodging facilities for students?
+    - Can students reside on campus?
+    - What types of on-campus living arrangements are available for students?
+    - Are there on-campus residence halls for students?
+    - How do I secure on-campus accommodation as a student?
+    - Are there on-campus housing options for students?
+    - Do you offer on-campus apartment rentals for students?
+    - Can I stay on campus as a student?
+    - What are the available on-campus accommodation facilities for students?
+    - Are there on-campus hostels for students?
+    - How do I apply for on-campus housing as a student?
+    - Is there on-campus accommodation space for students?
+    - Do you provide on-campus room allocations for students?
+    - Can I rent a place on campus as a student?
+    - What are the different on-campus accommodation options for students?
+    - Do you have on-campus flats or apartments for students?
+    - How can I find information about on-campus accommodation as a student?
+    - Is there on-campus dormitory space for students?
+    - Do you offer on-campus suite rentals for students?
+
+
 
 - intent: inquire_career
   examples: |
@@ -291,6 +509,90 @@ nlu:
     - Where can I get more training for [management](program) roles as a business graduate?
     - Why is [entrepreneurship](program) a risky but exciting opportunity for business administration majors?
     - When do I need to consult a [business law](program) expert for my business degree position?
+    - What are some of the career opportunities for [business administration](program) graduates?
+    - What kind of job opportunities are available for [communications](program) graduates?
+    - What are some job roles that [communications](program) graduates can apply for?
+    - What are the potential career paths for [communications](program) graduates?
+    - What are some potential career paths for [biology](program) graduates?
+    - What kind of job roles can [biology](program) graduates apply for?
+    - What are the career options for [biology](program) graduates?
+    - What are some job titles that [education](program) graduates can apply for?
+    - What kind of job opportunities do [education](program) graduates have?
+    - What are the career prospects for [education](program) graduates?
+    - What kind of jobs can I get with a [business administration](program) degree?
+    - What are the career paths for someone with a [business administration](program) major?
+    - How can I use my [business administration](program) degree in the job market?
+    - What are the best jobs for [business administration](program) graduates?
+    - What are some of the high-paying jobs for people with a [business administration](program) degree?
+    - What are the most common jobs for [business administration](program) alumni?
+    - What are some of the in-demand jobs for [business administration](program) holders?
+    - What are some of the career options for [business administration](program) students?
+    - What are some of the employment opportunities for someone with a [business administration](program) qualification?
+    - What are some of the career opportunities for [nursing](program) graduates?
+    - What kind of jobs can I get with a [psychology](program) degree?
+    - What are the career paths for someone with a [computer science](program) major?
+    - How can I use my [accounting](program) degree in the job market?
+    - What are the best jobs for [marketing](program) graduates?
+    - What are some of the high-paying jobs for people with a [finance](program) degree?
+    - What are the most common jobs for [education](program) alumni?
+    - What are some of the in-demand jobs for [engineering](program) holders?
+    - What are some of the career options for [biology](program) students?
+    - What are some of the employment opportunities for someone with a [sociology](program) qualification?
+    - What are the best [business administration](program) careers for accounting students?
+    - What are the most in-demand [finance](program) jobs for business degree holders?
+    - What are the most rewarding [marketing](program) roles for business graduates?
+    - What are the most challenging [information systems](program) opportunities for business administration majors?
+    - What are the most impactful [health care administration](program) positions for business degree holders?
+    - What are the most popular [accounting](program) careers for business administration students?
+    - What are the highest-paying [finance](program) jobs for business degree holders?
+    - What are the most creative [marketing](program) roles for business graduates?
+    - What are the most innovative [information systems](program) opportunities for business administration majors?
+    - What are the most respected [health care administration](program) positions for business degree holders?
+    - What are the most diverse [human resources management](program) careers for business administration students?
+    - What are the most stable [economics](program) jobs for business degree holders?
+    - What are the most strategic [management](program) roles for business graduates?
+    - What are the most dynamic [entrepreneurship](program) opportunities for business administration majors?
+    - What are the most ethical [business law](program) positions for business degree holders?
+    - What are the most exciting [international business](program) careers for business administration students?
+    - What are the most competitive [business analytics](program) jobs for business degree holders?
+    - What are the most analytical [operations management](program) roles for business graduates?
+    - What are the most collaborative [project management](program) opportunities for business administration majors?
+    - What are the most influential [leadership](program) positions for business degree holders?
+    - What are the most fulfilling [nonprofit management](program) careers for business administration students?
+    - What are the most flexible [online business](program) jobs for business degree holders?
+    - What are the most fun [sports management](program) roles for business graduates?
+    - What are the most rewarding [sustainability](program) opportunities for business administration majors?
+    - What can I do after learning [business communication](program)?
+    - How can I use my [accounting](program) skills in a business administration career?
+    - Which [finance](program) job is right for me with a business degree?
+    - Where can I find [marketing](program) roles that suit my business graduate profile?
+    - Why should I pursue [information systems](program) opportunities as a business administration major?
+    - When can I apply for [health care administration](program) positions with a business degree?
+    - Which [human resources management](program) careers are in demand for business administration students?
+    - How much can I earn with an [economics](program) job and a business degree?
+    - Where can I learn more about [management](program) roles for business graduates?
+    - Why is [entrepreneurship](program) a good opportunity for business administration majors?
+    - When do I need to know [business law](program) for my business degree position?
+    - How can I find [international business](program) careers that match my business administration skills?
+    - Which [business analytics](program) jobs are the most challenging for business degree holders?
+    - Where can I work as an [operations management](program) specialist with a business graduate degree?
+    - Why are [project management](program) opportunities so popular for business administration majors?
+    - When should I consider a [leadership](program) position with a business degree?
+    - How can I make a difference with a [nonprofit management](program) career and a business administration background?
+    - Which [online business](program) jobs are the most flexible for business degree holders?
+    - Where can I have fun with a [sports management](program) role and a business graduate degree?
+    - Why should I care about [sustainability](program) opportunities as a business administration major?
+    - When do I need to improve my [business communication](program) skills for my business degree position?
+    - How can I advance my [accounting](program) career with a business administration degree?
+    - Which [finance](program) job pays the most for business degree holders?
+    - Where can I network with other [marketing](program) professionals with a business graduate degree?
+    - Why is [information systems](program) a valuable skill for business administration majors?
+    - When is the best time to apply for [health care administration](program) positions with a business degree?
+    - How can I balance my [human resources management](program) career and my business administration
+
+
+
+
 
 - intent: inquire_passion
   examples: |
