@@ -1,0 +1,153 @@
+version: "3.1"
+stories:
+- story: greet 
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+
+- story: inquire about how to enroll
+  steps:
+  - intent: enroll
+  - action: utter_inquire_enroll
+  - intent: inform_faculty
+    entities:
+      - faculty_program: any
+  - action: action_inquire_requirements
+
+# - story: inquire about programs 
+#   steps:
+#   - intent: inquire_programs
+#   - action: action_inquire_programs
+
+- story: inquire about accommodation
+  steps:
+  - intent: inquire_accommodation
+  - action: utter_offer_accommodation
+
+- story: inquire about career with program
+  steps:
+  - intent: inquire_career
+    entities:
+      - faculty_program: any
+  - action: action_inquire_career_opportunities
+
+- story: inquire about career without program
+  steps:
+  - intent: inquire_career
+  - action: utter_ask_program
+  - intent: inform_faculty
+    entities:
+    - faculty_program: any
+  - action: action_inquire_career_opportunities
+
+- story: utter you are welcome
+  steps:
+  - intent: thank_you
+  - action: utter_thank_you
+
+- story: bye
+  steps:
+  - intent: bye
+  - action: utter_goodbye
+
+- story: user say no
+  steps:
+  - intent: user_no
+  - action: utter_no
+
+- story: user affirm
+  steps:
+  - intent: affirm
+  - action: utter_affirm
+
+
+- story: ask programs with faculty program
+  steps:
+  - intent: inquire_programs
+    entities:
+    - faculty_program: any
+  - action: action_inquire_programs
+  # - action: utter_anything_else
+
+- story: ask programs without faculty program
+  steps:
+  - intent: inquire_programs
+  - action: utter_ask_faculty_program
+  - intent: inform_faculty
+    entities:
+    - faculty_program: any
+  - action: action_inquire_programs
+  
+- story: ask program with passion
+  steps:
+  - intent: inquire_passion
+    entities:
+    - faculty_program: any 
+  - action: action_inquire_passion
+  # - action: utter_anything_else
+
+- story: ask program without passion
+  steps:
+  - intent: inquire_passion
+  - action: utter_ask_passion
+  - intent: inform_faculty
+    entities:
+    - faculty_program: any
+  - action: action_inquire_passion
+  
+- story: ask contact with faculty
+  steps:
+  - intent: inquire_contact
+    entities:
+    - faculty_program: any 
+  - action: action_inquire_contact
+  # - action: utter_anything_else
+
+- story: ask contact without faculty
+  steps:
+  - intent: inquire_contact
+  - action: utter_ask_faculty_program
+  - intent: inform_faculty
+    entities:
+    - faculty_program: any
+  - action: action_inquire_contact
+
+- story: ask fees with faculty
+  steps:
+  - intent: inquire_fees
+    entities:
+    - faculty_program: any 
+  - action: action_inquire_fees
+  # - action: utter_anything_else
+
+- story: ask fees without faculty
+  steps:
+  - intent: inquire_fees
+  - action: utter_ask_faculty_program
+  - intent: inform_faculty
+    entities:
+    - faculty_program: any
+  - action: action_inquire_fees
+
+
+- story: ask program requirements with program
+  steps:
+  - intent: ask_requirements
+    entities:
+    - faculty_program: any 
+  - action: action_inquire_requirements
+
+
+- story: ask program requirements without program
+  steps:
+  - intent: ask_requirements
+  - action: utter_ask_program
+  - intent: inform_faculty
+    entities:
+    - faculty_program: any
+  - action: action_inquire_requirements
+ 
+  
+  
+

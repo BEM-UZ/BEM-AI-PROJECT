@@ -1,0 +1,107 @@
+{
+  "Engineering and Science": {
+    "departments": {
+      "mathematics": {
+        "undergraduate": [
+          "BSc in Mathematics 📐",
+          "BSc in Statistics 📊",
+          "BSc in Actuarial Science 💰"
+        ],
+        "postgraduate": [
+          "MSc in Mathematics 📐",
+          "MSc in Statistics 📊",
+          "PhD in Mathematics 🎓"
+        ]
+      },
+      "physics": {
+        "undergraduate": [
+          "BSc in Physics 🔭",
+          "BSc in Astrophysics 🌠"
+        ],
+        "postgraduate": [
+          "MSc in Physics 🔭",
+          "MSc in Astrophysics 🌠",
+          "PhD in Physics 🎓"
+        ]
+      },
+      "chemistry": {
+        "undergraduate": [
+          "BSc in Chemistry 🧪",
+          "BSc in Biochemistry 🧬"
+        ],
+        "postgraduate": [
+          "MSc in Chemistry 🧪",
+          "MSc in Biochemistry 🧬",
+          "PhD in Chemistry 🎓"
+        ]
+      }
+    }
+  },
+  "Business Management Sciences And Economics": {
+    "departments": {
+      "Department of Finance and Accounting": {
+        "undergraduate": [
+          "BSc Honours Accounting and Finance 🔒",
+          " BSc Honours Public Sector Accounting and Finance💻",
+          "BSc Honours Financial and Accounting Systems Development",
+          "BSc Honours Fiscal Management",
+          "BSc Honours Digital Banking"
+        ],
+        "postgraduate": [
+          "Postgraduate Diploma in Public Sector Accounting and Finance📚",
+          "MSc Corporate Finance and Investment Management💻",
+          "MSc Public Sector Accounting and Finance📚",
+          "MSc Corporate Reporting and Governance",
+          "MSc Corporate Reconstruction and Insolvency",
+          "MSc Microbusiness Development and Finance"
+        ]
+      },
+      "Department of Business Enterprise and Management": {
+        "undergraduate": [
+          "BSc Honours Business Enterprise Development💻",
+          "BSc Honours Human Capital Development Science🔧",
+          "BSc Honours Business Management Systems Design and Applications💾",
+          "BSc Honours Business Marketing Informatics",
+          "BSc Honours Public Relations and Marketing",
+          "BSc Honours Supply Chain Management"
+        ],
+        "postgraduate": [
+          "MSc Human Capital Development Systems🔧",
+          "MSc Supply Chain Systems Design and Application💻",
+          "MSc International Business Management💾",
+          "MSc Strategic and International Marketing",
+          "DPhil/PhD 👩‍🎓"
+        ]
+      }
+    }
+  },
+  "Computer Engineering Informatics And Communications Programmes": {
+    "departments": {
+      "Department of Analytics and Informatics": {
+        "undergraduate": [
+          "Cyber Security and Forensic Auditing 🔒",
+          "Data Science and Informatics 💻"
+        ],
+        "postgraduate": [
+          "Postgraduate Diploma Information Science and Knowledge Management 📚",
+          "MSc Data Science and Informatics 💻",
+          "MSc Information Science and Knowledge Management 📚"
+        ]
+      },
+      "Department of Computer Engineering": {
+        "undergraduate": [
+          "BSc Hons. Computer Engineering 💻",
+          "Hardware Engineering 🔧",
+          "Software Engineering 💾"
+        ],
+        "postgraduate": [
+          "MSc. Computer Hardware Development 🔧",
+          "MSc. Computer Engineering 💻",
+          "MSc. Computer Software Development 💾",
+          "MPhil 👨‍🎓",
+          "DPhil/PhD 👩‍🎓"
+        ]
+      }
+    }
+  }
+}

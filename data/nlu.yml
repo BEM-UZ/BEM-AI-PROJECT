@@ -1,0 +1,985 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Good day
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good afternoon
+    - good evening
+    - greetings
+    - salutations
+    - howdy
+    - yo
+    - hi there
+    - hiya
+    - what's up
+    - how's it going
+    - nice to meet you
+    - hi, how are you doing
+    - it's a pleasure to meet you
+    - good to see you
+    - top of the morning to you
+    - welcome
+    - sup
+    - yo, what's good
+    - what's crackin'
+    - how's it hangin'
+    - what's happening
+    - 'sup, dude
+    - hiya, partner
+    - hey, there
+    - howdy, y'all
+    - what's the word
+    - what's new
+    - what's happening, homie
+    - what's good, my G
+    - what's good in the hood
+    - how's life treating you
+    - what's the 411
+    - what's the scoop
+    - what's the deal
+    - what's shakin'
+    - how are things going
+    - good day
+    - hi there, bot
+    - hey, chatbot
+    - hello, virtual assistant
+    - greetings, machine
+    - what's happening, bot
+    - howdy, AI
+    - good morning, chatbot
+    - good afternoon, virtual assistant
+    - good evening, bot
+    - nice to meet you, AI
+    - hiya, chatbot
+    - what's the word, virtual assistant
+    - what's new, bot
+    - what's shakin', AI
+    - what's up, chatbot
+    - well met, virtual assistant
+    - pleased to make your acquaintance, bot
+    - salutations, AI
+    - hello, there, chatbot
+- intent: enroll
+  examples: |
+    - I want to enroll at the University of Zimbabwe
+    - How can I apply for admission?
+    - I want to apply to the University of Zimbabwe
+    - I am interested in enrolling at the University of Zimbabwe
+    - Can you help me with the enrollment process at the University of Zimbabwe?
+    - I am looking to become a student at the University of Zimbabwe
+    - How do I enroll at the University of Zimbabwe?
+    - I want to register at the University of Zimbabwe
+    - Can you guide me through the application process for the University of Zimbabwe?
+    - I am seeking admission to the University of Zimbabwe
+    - What are the steps to enroll at the University of Zimbabwe?
+    - I am considering studying at the University of Zimbabwe, how can I enroll?
+    - I am looking to join the University of Zimbabwe
+    - I want to become a student at the University of Zimbabwe
+    - Can you tell me about the enrollment process for the University of Zimbabwe?
+    - I am interested in applying to the University of Zimbabwe, what should I do?
+    - How can I enroll at the University of Zimbabwe?
+    - I am considering studying at the University of Zimbabwe, how do I get started?
+    - What are the requirements for enrollment at the University of Zimbabwe?
+    - I would like to know how to apply to the University of Zimbabwe
+    - Can you provide information on how to enroll at the University of Zimbabwe?
+    - I am hoping to attend the University of Zimbabwe, what is the process to enroll?
+    - I want to start my studies at the University of Zimbabwe
+    - What are the admission criteria for the University of Zimbabwe?
+    - How do I submit my application to the University of Zimbabwe?
+    - I am looking for information on how to enroll at the University of Zimbabwe
+    - Can you assist me with the enrollment process for the University of Zimbabwe?
+    - I am interested in enrolling in a program at the University of Zimbabwe, what are my options?
+    - What documents are required for enrollment at the University of Zimbabwe?
+    - I am considering the University of Zimbabwe for my studies, how do I proceed with enrollment?
+    - Can you help me with the enrollment process for the University of Zimbabwe's online programs?
+    - I want to apply for a degree program at the University of Zimbabwe, what do I need to do?
+    - How can I enroll in the University of Zimbabwe's undergraduate program?
+    - I am looking to apply to the University of Zimbabwe, where should I start?
+    - Can you guide me through the enrollment steps for the University of Zimbabwe's postgraduate programs?
+    - I want to become a student at the University of Zimbabwe, what should I know about the enrollment process?
+    - How do I get admission to the University of Zimbabwe's engineering program?
+    - I am considering the University of Zimbabwe for my studies, how can I get more information about enrollment?
+    - What is the deadline to submit the application for enrollment at the University of Zimbabwe?
+    - Can you provide details about the enrollment fees for international students at the University of Zimbabwe?
+    - I want to pursue a Master's degree at the University of Zimbabwe, what are the specific requirements?
+    - How long does it usually take to complete the enrollment process at the University of Zimbabwe?
+    - I am interested in enrolling in the medical program at the University of Zimbabwe, what are the prerequisites?
+    - Can you explain the enrollment timeline for the University of Zimbabwe's business administration program?
+    - I want to transfer to the University of Zimbabwe from another university
+- intent: inquire_programs
+  examples: |
+
+    - What programs do you offer in [business management sciences and economics](faculty_program)
+    - Tell me more about the faculty of [business management sciences and economics](faculty_program)
+    - Which programs can I take in [business management sciences and economics](faculty_program)
+    - What majors do you have in [business management and economics](faculty_program)
+    - Can you tell me more about your undergraduate programs in [business and economics](faculty_program)
+    - What are the different courses offered in [business management sciences and economics](faculty_program)?
+    - Can you provide information on the degree programs in [business and economics](faculty_program)
+    - What are the areas of concentration offered in [business management sciences and economics](faculty_program)
+    - I am interested in studying [business management sciences and economics](faculty_program), what programs do you offer
+    - Could you give me details about the [business management sciences and economics](faculty_program) programs at your institution
+    - What kind of graduate programs are offered in [business management sciences and economics](faculty_program)
+    - Can you tell me about the curriculum for your [business management and economics](faculty_program) programs
+    - What degrees do you offer in [business and economics](faculty_program)
+    - Can you tell me about the [business management](faculty_program) programs you have
+    - What are the programs available in the field of [economics](faculty_program)
+    - Which courses are offered in [business management sciences](faculty_program)
+    - Could you give me more information on the programs offered in [economics](faculty_program)
+    - What programs do you offer in [business management sciences and economics](faculty_program)
+    - How many programs are there in the [business management sciences and economics](faculty_program) faculty
+    - Can you tell me more about the programs in the [business management sciences and economics](faculty_program) field
+    - Which programs in the [business management sciences and economics](faculty_program) faculty are the most popular
+    - What programs do you offer in [business management sciences and economics](faculty_program)?
+    - Tell me more about the faculty of [business management sciences and economics](faculty_program)
+    - Which programs can I take in [business management sciences and economics](faculty_program)?
+    - What majors do you have in [business management and economics](faculty_program)?
+    - Can you tell me more about your undergraduate programs in [business and economics](faculty_program)?
+    - What are the different courses offered in [business management sciences and economics](faculty_program)?
+    - Can you provide information on the degree programs in [business and economics](faculty_program)?
+    - What are the areas of concentration offered in [business management sciences and economics](faculty_program)?
+    - Could you give me details about the [business management sciences and economics](faculty_program) programs at your institution?
+    - What kind of graduate programs are offered in [business management sciences and economics](faculty_program)?
+    - Can you tell me about the curriculum for your [business management and economics](faculty_program) programs?
+    - What degrees do you offer in [business and economics](faculty_program)?
+    - Can you tell me about the [business management](faculty_program) programs you have?
+    - What are the programs available in the field of [economics](faculty_program)?
+    - Which courses are offered in [business management sciences](faculty_program)?
+    - Could you give me more information on the programs offered in [economics](faculty_program)?
+    - What are the available courses in [business management and economics](faculty_program)?
+    - I'm interested in studying [business management and economics](faculty_program). What programs do you have?
+    - Can you give me a list of programs in [business management sciences and economics](faculty_program)?
+    - What majors are available in [business management and economics](facaulty_program)?
+    - What are the different degrees and diplomas offered in [business and economics](faculty_program)?
+    - What majors do you have in [business management and economics](faculty_program) ?
+    - What majors are available in [business management and economics](faculty_program)?
+    - Are there any specialized programs in [business management sciences and economics](faculty_program)?
+    - Can you provide details on the postgraduate programs in [business and economics](faculty_program)?
+    - Can you tell me about the available programs in [computer science](faculty_program)?
+    - I'm interested in studying [biology](faculty_program). What programs can you offer?
+    - What kind of programs are available in [business management](faculty_program)?
+    - Could you provide me with more information on the programs offered in [engineering](faculty_program)?
+    - I would like to know more about the programs available in [psychology](faculty_program). Can you help me with that?
+    - What are the different programs available in [medicine](faculty_program)?
+    - Can you give me an overview of the programs offered in [law](faculty_program)?
+    - I'm interested in studying [linguistics](faculty_program). What programs do you have in that field?
+    - Could you tell me about the programs available in [architecture](faculty_program)?
+    - What are the different programs offered in [education](faculty_program)?
+    - What programs do you offer in [CS](faculty_program)?
+    - What kind of programs do you have in [bio](faculty_program)?
+    - Can you tell me about the programs offered in [biz](faculty_program)?
+    - What programs are available in [engg](faculty_program)?
+    - Can you give me more information on the [psych](faculty_program) programs?
+    - What kind of [med](faculty_program) programs do you offer?
+    - Can you tell me about the [law](faculty_program) programs you have?
+    - What are the [ling](faculty_program) programs available?
+    - Could you provide me with information on [archi](faculty_program) programs?
+    - What kind of [edu](faculty_program) programs do you offer?
+    - Can you give me more information about the [econimics](faculty_program) programs?
+    - I'm interested in the programs offered in [finace](faculty_program). Can you tell me more?
+    - What kind of programs are available in [accouting](faculty_program)?
+    - Could you provide me with information on the [maketing](faculty_program) programs?
+    - I want to know more about the programs in [managment](faculty_program).
+    - Can you tell me about the programs in [human resouces](faculty_program)?
+    - What kind of programs do you have in [comp sci](faculty_program)?
+    - Could you tell me about the programs in [bioengineering](faculty_program)?
+    - What are the programs offered in [bus admin](faculty_program)?
+    - Tell me about the programs available in [electrical eng](faculty_program).
+    - What kind of programs are there in [cognitive science](faculty_program)?
+    - Can you give me more information about the [psychology](faculty_program) programs?
+    - What are the different [physics](faculty_program) programs?
+    - Can you tell me about the programs in [env sci](faculty_program)?
+    - What kind of programs do you offer in [theatre](faculty_program)?
+    - Could you provide me with information on the [public health](faculty_program) programs?
+    - What programs do you have in [engneering](faculty_program)?
+    - Can you tell me about the programs offered in [sociolgoy](faculty_program)?
+    - What kind of programs are there in [computer science](faculty_program)
+    - Can you tell me about the programs offered in [biochemistry](faculty_program)
+    - I'm interested in studying [psychology](faculty_program) what programs can you offer
+    - What programs do you have in [mathematics](faculty_program)
+    - Could you give me more information on the programs in [mechanical engineering](faculty_program)
+    - Can you tell me about the programs available in [chemistry](faculty_program)
+    - What kind of programs are offered in [political science](faculty_program)
+    - Can you provide me with information on the [history](faculty_program) programs
+    - What programs do you have in [statistics](faculty_program)
+    - Could you tell me about the programs in [civil engineering](faculty_program)
+    - What kind of programs are available in [philosophy](faculty_program)
+    - Can you give me an overview of the programs in [earth science](faculty_program)
+    - I'm interested in studying [gender studies](faculty_program) what programs do you offer
+    - What programs are available in [linguistics](faculty_program)
+    - Can you provide me with information on the [sustainability](faculty_program) programs
+    - Can you tell me about the programs offered in [music](faculty_program)
+    - What kind of programs do you have in [geography](faculty_program)
+    - Could you give me more information on the [film studies](faculty_program) programs
+    - What programs are available in [environmental science](faculty_program)
+    - Can you provide me with information on the [psychiatry](faculty_program) programs
+    - Which programs are offered in [computer science](faculty_program)?
+    - Can you tell me about the programs in [biology](faculty_program) that you offer?
+    - What kind of programs can I study in [business administration](faculty_program)?
+    - Please describe the available programs in [mechanical engineering](faculty_program).
+    - Could you provide me with more information on the programs in [psychology](faculty_program)?
+    - What programs are available for [medicine](faculty_program) students?
+    - Give me the details on the programs offered in [law](faculty_program).
+    - What are the program options in [linguistics](faculty_program)?
+    - Can you tell me about the programs available in [architecture](faculty_program), specifically?
+    - What programs do you have in [education](faculty_program) that are popular?
+    - I want to know about the programs in [computer science](faculty_program) that you offer.
+    - Can you explain the programs in [biology](faculty_program) in more detail?
+    - What are the programs offered in [business management](faculty_program) like?
+    - Tell me more about the programs in [engineering](faculty_program) that you have.
+    - What kind of programs are there in [psychology](faculty_program)?
+    - Could you provide me with an overview of the programs in [chemistry](faculty_program)?
+    - What are the different [physics](faculty_program) programs that you offer?
+    - Can you give me more information on the programs in [environmental science](faculty_program), please?
+    - What programs are available in [public health](faculty_program) for graduate students?
+    - Can you tell me about the different [design](faculty_program) programs you offer?
+    - Do you offer any online programs in [business management sciences and economics](faculty_program)?
+    - Do you have any joint degree programs in [business and economics](faculty_program)?
+    
+- intent: inquire_fees
+  examples: |
+    - How much are the fees for [business administration](faculty_program)?
+    - What is the cost of studying [economics](faculty_program) at the University of Zimbabwe?
+    - How do I pay for my [accounting](faculty_program) faculty_program?
+    - How much do I have to pay for [mathematics](faculty_program)?
+    - What are the charges for [psychology](faculty_program)?
+    - How much is [law](faculty_program) tuition?
+    - What is the price of [nursing](faculty_program)?
+    - How much does [accounting](faculty_program) cost?
+    - What is the fee for [biology](faculty_program)?
+    - How much do I need to pay for [chemistry](faculty_program)?
+    - What are the expenses for [history](faculty_program)?
+    - How much is the tuition fee for [philosophy](faculty_program)?
+    - What is the rate for [economics](faculty_program)?
+    - How much are the fees for [art](faculty_program)?
+    - What is the cost of [music](faculty_program)?
+    - How much does [literature](faculty_program) cost?
+    - What is the fee for [sociology](faculty_program)?
+    - How much do I need to pay for [education](faculty_program)?
+    - What are the expenses for [physics](faculty_program)?
+    - How much is the tuition fee for [geography](faculty_program)?
+    - What is the rate for [political science](faculty_program)?
+    - How much are the fees for [business management](faculty_program)?
+    - What is the cost of [environmental science](faculty_program)?
+    - How much do I have to pay for [architecture](faculty_program)?
+    - What are the charges for [journalism](faculty_program)?
+    - How much is [engineering](faculty_program) tuition?
+    - What is the price of [design](faculty_program)?
+    - How much does [marketing](faculty_program) cost?
+    - What is the fee for [linguistics](faculty_program)?
+    - How much do I need to pay for [anthropology](faculty_program)?
+    - What are the expenses for [astronomy](faculty_program)?
+    - How much is the tuition fee for [theology](faculty_program)?
+    - What is the rate for [finance](faculty_program)?
+    - How much are the fees for [medicine](faculty_program)?
+    - What is the cost of [dentistry](faculty_program)?
+    - How much does [pharmacy](faculty_program) cost?
+    - What is the fee for [veterinary medicine](faculty_program)?
+    - How much do I need to pay for [agriculture](faculty_program)?
+    - What are the expenses for [forestry](faculty_program)?
+    - How much is the tuition fee for [marine biology](faculty_program)?
+    - What is the rate for [computer science](faculty_program)?
+    - How much are the fees for [information technology](faculty_program)?
+    - What is the cost of [cybersecurity](faculty_program)?
+    - Can you provide information on the fees for the [business administration](faculty_program) faculty_program?
+    - How much does it cost to study [economics](faculty_program) at the University of Zimbabwe?
+    - Can you tell me the fees for the [accounting](faculty_program) faculty_program?
+    - What is the tuition fee for the [mathematics](faculty_program) faculty_program?
+    - Can you give me details about the charges for the [psychology](faculty_program) faculty_program?
+    - How much do I need to pay for the [law](faculty_program) faculty_program's tuition?
+    - What are the fees for the [nursing](faculty_program) faculty_program?
+    - How much is the tuition fee for [theology](faculty_program)
+    - What is the rate for [finance](faculty_program)
+    - How much are the fees for [medicine](faculty_program)
+    - What is the cost of [dentistry](faculty_program)
+    - How much does [pharmacy](faculty_program) cost?
+    - What is the fee for [veterinary medicine](faculty_program)
+    - How much do I need to pay for [agriculture](faculty_program)
+    - What are the expenses for [forestry](faculty_program)
+    - How much is the tuition fee for [marine biology](faculty_program)
+    - What is the rate for [computer science](faculty_program)?
+    - How much are the fees for [information technology](faculty_program)
+    - What is the cost of [cybersecurity](faculty_program)
+    - Can you provide information on the fees for the [business administration](faculty_program) faculty_program
+    - How much does it cost to study [economics](faculty_program) at the University of Zimbabwe
+    - Can you tell me the fees for the [accounting](faculty_program) faculty_program
+    - What is the tuition fee for the [mathematics](faculty_program) faculty_program
+    - Can you give me details about the charges for the [psychology](faculty_program) faculty_program
+    - How much do I need to pay for the [law](faculty_program) faculty_program's tuition
+    - What are the fees for the [nursing](faculty_program) faculty_program
+   
+- intent: inquire_accommodation
+  examples: |
+    - Do you have on-campus accommodation for students?
+    - Where can I find a place to stay near the university?
+    - How much is the rent for a room in [Harare](city)?
+    - Is there a place to stay on campus for students?
+    - Can students live on campus?
+    - What are the options for on-campus housing for students?
+    - Do you offer on-campus dormitories for students?
+    - How can I apply for on-campus accommodation as a student?
+    - Is on-campus accommodation available for students?
+    - Do you provide on-campus lodging for students?
+    - Can I stay on campus as a student?
+    - What are the on-campus living arrangements for students?
+    - Do you have on-campus residence halls for students?
+    - How do I get on-campus accommodation as a student?
+    - Is there on-campus housing for students?
+    - Do you offer on-campus apartments for students?
+    - Can I live on campus as a student?
+    - What are the on-campus accommodation facilities for students?
+    - Do you have on-campus hostels for students?
+    - How do I apply for on-campus housing as a student?
+    - Is there on-campus living space for students?
+    - Do you provide on-campus rooms for students?
+    - Can I rent a place on campus as a student?
+    - What are the on-campus accommodation options for students?
+    - Do you have on-campus flats for students?
+    - How do I find on-campus accommodation as a student?
+    - Is there on-campus dorm space for students?
+    - Do you offer on-campus suites for students?
+    - Can you provide information on the availability of on-campus accommodation for students?
+    - Where can I find information about accommodation options near the university?
+    - How much does it cost to rent a room in [Harare](city)?
+    - Are there on-campus housing options for students?
+    - Is on-campus accommodation guaranteed for students?
+    - Are there on-campus lodging facilities for students?
+    - Can students reside on campus?
+    - What types of on-campus living arrangements are available for students?
+    - Are there on-campus residence halls for students?
+    - How do I secure on-campus accommodation as a student?
+    - Do you offer on-campus apartment rentals for students?
+    - What are the available on-campus accommodation facilities for students?
+    - Are there on-campus hostels for students?
+    - Is there on-campus accommodation space for students?
+    - Do you provide on-campus room allocations for students?
+    - What are the different on-campus accommodation options for students?
+    - Do you have on-campus flats or apartments for students?
+    - How can I find information about on-campus accommodation as a student?
+    - Is there on-campus dormitory space for students?
+    - Do you offer on-campus suite rentals for students?
+    - Can I rent a place on campus as a student
+    - What are the on-campus accommodation options for students
+    - Do you have on-campus flats for students
+    - How do I find on-campus accommodation as a student
+    - Is there on-campus dorm space for students
+    - Do you offer on-campus suites for students
+    - Can you provide information on the availability of on-campus accommodation for students
+    - Where can I find information about accommodation options near the university
+    - How much does it cost to rent a room in [Harare](city)
+    - Are there on-campus housing options for students
+    - Is on-campus accommodation guaranteed for students
+    - Are there on-campus lodging facilities for students
+    - Can students reside on campus
+    - What types of on-campus living arrangements are available for students
+    - Are there on-campus residence halls for students
+    - How do I secure on-campus accommodation as a student
+    - Do you offer on-campus apartment rentals for students
+    - What are the available on-campus accommodation facilities for students
+    - Are there on-campus hostels for students
+    - Is there on-campus accommodation space for students
+    - Do you provide on-campus room allocations for students
+    - What are the different on-campus accommodation options for students
+    - Do you have on-campus flats or apartments for students
+    - How can I find information about on-campus accommodation as a student
+    - Is there on-campus dormitory space for students
+    - Do you offer on-campus suite rentals for students
+    - Do students have a place to live on campus?
+    - Do I have a place to stay on campus?
+    - Is there any on-campus housing available for students?
+    - What are my options for on-campus housing?
+    - Can I apply for housing even if I'm not a student?
+    - How much does it cost to live on campus?
+    - Are there any single rooms available?
+    - What is the process for applying for on-campus housing?
+    - How do I pay for my housing fees?
+    - Do you provide housing for international students?
+    - Are there any restrictions on who can live on campus?
+    - How long can I stay in on-campus housing?
+    - Can I stay on campus during school breaks?
+    - What amenities are included in on-campus housing?
+    - Is there any on-campus housing available for the upcoming semester?
+    - Are there any vacant rooms on campus
+    - Do you currently have any on-campus housing options available
+    - Are there any rooms available for immediate move-in
+    - Can I still apply for on-campus housing this late in the year
+    - Are there any off-campus housing options available through the university?
+    - How early should I apply for on-campus housing to ensure availability
+    - Is there a waitlist for on-campus housing
+    - Are there any alternative options for housing if on-campus housing is not available
+    - Can I apply for on-campus housing mid-semester if I decide to move on campus
+    - Are there any specific requirements to be eligible for on-campus housing
+    - How will I know if on-campus housing becomes available after the application deadline
+    - Is there a limited number of on-campus housing options available
+    - Can I apply for on-campus housing for only part of the academic year
+    - How do I check the availability of on-campus housing options
+- intent: inquire_career
+  examples: |
+    - What are some of the career opportunities for [business administration](faculty_program) graduates?
+    - What kind of job opportunities are available for [communications](faculty_program) graduates?
+    - What are some job roles that [communications](faculty_program) graduates can apply for?
+    - What are the potential career paths for [communications](faculty_program) graduates?
+    - What are some potential career paths for [biology](faculty_program) graduates?
+    - What kind of job roles can [biology](faculty_program) graduates apply for?
+    - What are the career options for [biology](faculty_program) graduates?
+    - What are some job titles that [education](faculty_program) graduates can apply for?
+    - What kind of job opportunities do [education](faculty_program) graduates have?
+    - What are the career prospects for [education](faculty_program) graduates?
+    - What kind of jobs can I get with a [business administration](faculty_program) degree?
+    - What are the career paths for someone with a [business administration](faculty_program) major?
+    - How can I use my [business administration](faculty_program) degree in the job market?
+    - What are the best jobs for [business administration](faculty_program) graduates?
+    - What are some of the high-paying jobs for people with a [business administration](faculty_program) degree?
+    - What are the most common jobs for [business administration](faculty_program) alumni?
+    - What are some of the in-demand jobs for [business administration](faculty_program) holders?
+    - What are some of the career options for [business administration](faculty_program) students?
+    - What are some of the employment opportunities for someone with a [business administration](faculty_program) qualification?
+    - What are some of the career opportunities for [nursing](faculty_program) graduates?
+    - What kind of jobs can I get with a [psychology](faculty_program) degree?
+    - What are the career paths for someone with a [computer science](faculty_program) major?
+    - How can I use my [accounting](faculty_program) degree in the job market?
+    - What are the best jobs for [marketing](faculty_program) graduates?
+    - What are some of the high-paying jobs for people with a [finance](faculty_program) degree?
+    - What are the most common jobs for [education](faculty_program) alumni?
+    - What are some of the in-demand jobs for [engineering](faculty_program) holders?
+    - What are some of the career options for [biology](faculty_program) students?
+    - What are some of the employment opportunities for someone with a [sociology](faculty_program) qualification?
+    - What are the best [business administration](faculty_program) careers for accounting students?
+    - What are the most in-demand [finance](faculty_program) jobs for business degree holders?
+    - What are the most rewarding [marketing](faculty_program) roles for business graduates?
+    - What are the most challenging [information systems](faculty_program) opportunities for business administration majors?
+    - What are the most impactful [health care administration](faculty_program) positions for business degree holders?
+    - What are the most popular [accounting](faculty_program) careers for business administration students?
+    - What are the highest-paying [finance](faculty_program) jobs for business degree holders?
+    - What are the most creative [marketing](faculty_program) roles for business graduates?
+    - What are the most innovative [information systems](faculty_program) opportunities for business administration majors?
+    - What are the most respected [health care administration](faculty_program) positions for business degree holders?
+    - What are the most diverse [human resources management](faculty_program) careers for business administration students?
+    - What are the most stable [economics](faculty_program) jobs for business degree holders?
+    - What are the most strategic [management](faculty_program) roles for business graduates?
+    - What are the most dynamic [entrepreneurship](faculty_program) opportunities for business administration majors?
+    - What are the most ethical [business law](faculty_program) positions for business degree holders?
+    - What are the most exciting [international business](faculty_program) careers for business administration students?
+    - What are the most competitive [business analytics](faculty_program) jobs for business degree holders?
+    - What are the most analytical [operations management](faculty_program) roles for business graduates?
+    - What are the most collaborative [project management](faculty_program) opportunities for business administration majors?
+    - What are the most influential [leadership](faculty_program) positions for business degree holders?
+    - What are the most fulfilling [nonprofit management](faculty_program) careers for business administration students?
+    - What are the most flexible [online business](faculty_program) jobs for business degree holders?
+    - What are the most fun [sports management](faculty_program) roles for business graduates?
+    - What are the most rewarding [sustainability](faculty_program) opportunities for business administration majors?
+    - What can I do after learning [business communication](faculty_program)?
+    - How can I use my [accounting](faculty_program) skills in a business administration career?
+    - Which [finance](faculty_program) job is right for me with a business degree?
+    - Where can I find [marketing](faculty_program) roles that suit my business graduate profile?
+    - Why should I pursue [information systems](faculty_program) opportunities as a business administration major?
+    - When can I apply for [health care administration](faculty_program) positions with a business degree?
+    - Which [human resources management](faculty_program) careers are in demand for business administration students?
+    - How much can I earn with an [economics](faculty_program) job and a business degree?
+    - Where can I learn more about [management](faculty_program) roles for business graduates?
+    - Why is [entrepreneurship](faculty_program) a good opportunity for business administration majors?
+    - When do I need to know [business law](faculty_program) for my business degree position?
+    - How can I find [international business](faculty_program) careers that match my business administration skills?
+    - Which [business analytics](faculty_program) jobs are the most challenging for business degree holders?
+    - Where can I work as an [operations management](faculty_program) specialist with a business graduate degree?
+    - Why are [project management](faculty_program) opportunities so popular for business administration majors?
+    - When should I consider a [leadership](faculty_program) position with a business degree?
+    - How can I make a difference with a [nonprofit management](faculty_program) career and a business administration background?
+    - Which [online business](faculty_program) jobs are the most flexible for business degree holders?
+    - Where can I have fun with a [sports management](faculty_program) role and a business graduate degree?
+    - Why should I care about [sustainability](faculty_program) opportunities as a business administration major?
+    - When do I need to improve my [business communication](faculty_program) skills for my business degree position?
+    - How can I advance my [accounting](faculty_program) career with a business administration degree?
+    - Which [finance](faculty_program) job pays the most for business degree holders?
+    - Where can I network with other [marketing](faculty_program) professionals with a business graduate degree?
+    - Why is [information systems](faculty_program) a valuable skill for business administration majors?
+    - When is the best time to apply for [health care administration](faculty_program) positions with a business degree?
+    - How can I balance my [human resources management](faculty_program) career and my business administration studies?
+    - Which [economics](faculty_program) job is the most rewarding for business degree holders?
+    - Where can I get more training for [management](faculty_program) roles as a business graduate?
+    - Why is [entrepreneurship](faculty_program) a risky but exciting opportunity for business administration majors?
+    - When do I need to consult a [business law](faculty_program) expert for my business degree position?
+    - How can I balance my [human resources management](faculty_program) career and my business administration
+    - What are some of the career opportunities for [business administration](faculty_program) graduates
+    - What kind of job opportunities are available for [communications](faculty_program) graduates
+    - What are some job roles that [communications](faculty_program) graduates can apply for
+    - What are the potential career paths for [communications](faculty_program) graduates
+    - What are some potential career paths for [biology](faculty_program) graduates
+    - What kind of job roles can [biology](faculty_program) graduates apply for
+    - What are the career options for [biology](faculty_program) graduates
+    - What are some job titles that [education](faculty_program) graduates can apply for
+    - What kind of job opportunities do [education](faculty_program) graduates have
+    - What are the career prospects for [education](faculty_program) graduates
+    - What kind of jobs can I get with a [business administration](faculty_program) degree
+    - What are the career paths for someone with a [business administration](faculty_program) major
+    - How can I use my [business administration](faculty_program) degree in the job market
+    - What are the best jobs for [business administration](faculty_program) graduates
+    - What are some of the high-paying jobs for people with a [business administration](faculty_program) degree
+    - What are the most common jobs for [business administration](faculty_program) alumni
+    - What are some of the in-demand jobs for [business administration](faculty_program) holders
+    - What are some of the career options for [business administration](faculty_program) students
+    - What are some of the employment opportunities for someone with a [business administration](faculty_program) qualification
+    - What are some of the career opportunities for [nursing](faculty_program) graduates
+- intent: inquire_passion
+  examples: |
+    - I'm very passionate about [helping people](faculty_program) in need.
+    - I am passionate about [accounting and finance](faculty_program) and want to manage money and resources effectively. What could be the best program for me?
+    - I love [math and physics](faculty_program) and want to explore the mysteries of the universe. What program would suit me best?
+    - I enjoy [writing and storytelling](faculty_program) and want to create engaging content for different audiences. What program should I choose?
+    - I am interested in [biology and chemistry](faculty_program) and want to improve human health and well-being. What program would be ideal for me?
+    - I have a knack for [design and technology](faculty_program) and want to create innovative solutions for real-world problems. What program would match my skills?
+    - I am fascinated by [history and culture](faculty_program) and want to learn more about the past and present of different societies. What program would fulfill my curiosity?
+    - What program can I take if I have a passion for [art and music](faculty_program) and want to express myself creatively?
+    - Which program is best for me if I like [psychology and sociology](faculty_program) and want to understand human behavior and interactions?
+    - How can I find a program that matches my passion for [environment and sustainability](faculty_program) and want to make a positive impact on the planet?
+    - What are some programs that cater to my passion for [business and entrepreneurship](faculty_program) and want to start my own venture or work in a dynamic organization?
+    - Is there a program that combines my passion for [education and social justice](faculty_program) and want to empower others through learning and advocacy?
+    - Tell me the best program if I am interested in [law and politics](faculty_program) and want to pursue a career in the legal or public sector.
+    - Show me some programs that align with my interest in [sports and fitness](faculty_program) and want to promote physical health and wellness.
+    - Recommend me a program that suits my passion for [languages and literature](faculty_program) and want to master different forms of communication and expression.
+    - Suggest me a program that fits my passion for [engineering and robotics](faculty_program) and want to build machines that can perform complex tasks.
+    - How about a program that matches my passion for [medicine and health sciences](faculty_program) and want to help people with their medical needs?
+    - What is a good program for me if I have a passion for [philosophy and ethics](faculty_program) and want to explore the fundamental questions of life?
+    - Can you find me a program that caters to my interest in [astronomy and space exploration](faculty_program) and want to discover the secrets of the cosmos?
+    - Which program would you choose if you were passionate about [economics and social sciences](faculty_program) and want to analyze the behavior and outcomes of individuals and groups?
+    - What are some options for me if I am passionate about [computer science and artificial intelligence](faculty_program) and want to create software and systems that can learn and improve?
+    - Is there a program that appeals to my passion for [architecture and urban planning](faculty_program) and want to design buildings and spaces that are functional and aesthetic?
+    - Help me find a program that aligns with my passion for [agriculture and food science](faculty_program) and want to improve the quality and safety of food production and consumption.
+    - What do you think is the best program for me if I am passionate about [journalism and media studies](faculty_program) and want to report on current events and issues?
+    - Give me some examples of programs that suit my interest in [anthropology and archaeology](faculty_program) and want to study the origins and diversity of human cultures.
+    - Find me a program that matches my passion for [geography and environmental studies](faculty_program) and want to understand the physical and human aspects of the Earth.
+    - Which program would be ideal for me if I have a passion for [religion and spirituality](faculty_program) and want to learn about the beliefs and practices of different faiths?
+    - How can I choose a program that fits my interest in [musicology and sound engineering](faculty_program) and want to study the theory, history, and production of music?
+    - What is a suitable program for me if I have a passion for [theatre and drama](faculty_program) and want to perform or direct plays or musicals?
+    - Can you suggest me a program that caters to my passion for [fashion and textile design](faculty_program) and want to create clothing and accessories that are stylish and functional?
+    - What are some possible programs for me if I am interested in [psycholinguistics and cognitive science](faculty_program) and want to study how the mind processes language and information?
+    - Is there a program that appeals to my passion for [martial arts and self-defense](faculty_program) and want to learn how to fight and protect myself?
+    - Help me find a program that aligns with my passion for [photography and film-making](faculty_program) and want to capture and create stunning visuals.
+    - What do you think is the best program for me if I am passionate about [dance and choreography](faculty_program) and want to express myself through movement and rhythm?
+    - Give me some examples of programs that suit my interest in [forensic science and criminology](faculty_program) and want to investigate crimes and criminals.
+    - Find me a program that matches my passion for [marine biology and oceanography](faculty_program) and want to study the life and dynamics of the oceans.
+    - Which program would be ideal for me if I have a passion for [game design and development](faculty_program) and want to create interactive and immersive games?
+    - How can I choose a program that fits my interest in [nutrition and dietetics](faculty_program) and want to learn how food affects health and well-being?
+    - What is a suitable program for me if I have a passion for [animal science and veterinary medicine](faculty_program) and want to care for animals and their health?
+    - Can you suggest me a program that caters to my passion for [travel and tourism](faculty_program) and want to explore different places and cultures?
+- intent: inquire_contact
+  examples: |
+    
+    - How can I contact the [business management sciences and economics](faculty_program)?
+    - What is the contact information of the [business management sciences and economics](faculty_program)?
+    - How do I get in touch with the [business management sciences and economics](faculty_program)?
+    - What are the contact details of the [business management sciences and economics](faculty_program)?
+    - How can I reach the [business management sciences and economics](faculty_program)?
+    - What is the email address of the [business management sciences and economics](faculty_program)?
+    - How do I communicate with the [business management sciences and economics](faculty_program)?
+    - What are the phone numbers of the [business management sciences and economics](faculty_program)?
+    - How can I connect with the [business management sciences and economics](faculty_program)?
+    - What is the website of the [business management sciences and economics](faculty_program)?
+    - How do I contact the [business management sciences and economics](faculty_program)?
+    - What is the mailing address of the [business management sciences and economics](faculty_program)?
+    - How do I talk to the [business management sciences and economics](faculty_program)?
+    - What are the social media handles of the [business management sciences and economics](faculty_program)?
+    - How can I message the [business management sciences and economics](faculty_program)?
+    - What is the fax number of the [business management sciences and economics](faculty_program)?
+    - How do I email the [business management sciences and economics](faculty_program)?
+    - What are the office hours of the [business management sciences and economics](faculty_program)?
+    - How can I call the [business management sciences and economics](faculty_program)?
+    - What is the location of the [business management
+    - How can I contact the [computer science](faculty_program)?
+    - What is the contact information of the [engineering](faculty_program)?
+    - How do I get in touch with the [law](faculty_program)?
+    - What are the contact details of the [medicine](faculty_program)?
+    - How can I reach the [arts and humanities](faculty_program)?
+    - What is the email address of the [education](faculty_program)?
+    - How do I communicate with the [social sciences](faculty_program)?
+    - What are the phone numbers of the [agriculture](faculty_program)?
+    - How can I connect with the [pharmacy](faculty_program)?
+    - What is the website of the [nursing](faculty_program)?
+    - How do I contact the [mathematics and statistics](faculty_program)?
+    - What is the mailing address of the [physics and astronomy](faculty_program)?
+    - How do I talk to the [chemistry and biochemistry](faculty_program)?
+    - What are the social media handles of the [biology and ecology](faculty_program)?
+    - How can I message the [geography and geology](faculty_program)?
+    - What is the fax number of the [psychology and neuroscience](faculty_program)?
+    - How do I email the [philosophy and ethics](faculty_program)?
+    - What are the office hours of the [history and archaeology](faculty_program)?
+    - How can I call the [linguistics and literature](faculty_program)?
+    - What is the location of the [design and architecture](faculty_program)?
+    - How can I contact the faculty_program of [computer science](faculty_program)?
+    - What is the contact information of the faculty_program of [engineering](faculty_program)?
+    - How do I get in touch with the faculty_program of [law](faculty_program)?
+    - What are the contact details of the faculty_program of [medicine](faculty_program)?
+    - How can I reach the faculty_program of [arts and humanities](faculty_program)?
+    - What is the email address of the faculty_program of [education](faculty_program)?
+    - How do I communicate with the faculty_program of [social sciences](faculty_program)?
+    - What are the phone numbers of the faculty_program of [agriculture](faculty_program)?
+    - How can I connect with the faculty_program of [pharmacy](faculty_program)?
+    - What is the website of the faculty_program of [nursing](faculty_program)?
+    - How do I contact the faculty_program of [mathematics and statistics](faculty_program)?
+    - What is the mailing address of the faculty_program of [physics and astronomy](faculty_program)?
+    - How do I talk to the faculty_program of [chemistry and biochemistry](faculty_program)?
+    - What are the social media handles of the faculty_program of [biology and ecology](faculty_program)?
+    - How can I message the faculty_program of [geography and geology](faculty_program)?
+    - What is the fax number of the faculty_program of [psychology and neuroscience](faculty_program)?
+    - How do I email the faculty_program of [philosophy and ethics](faculty_program)?
+    - What are the office hours of the faculty_program of [history and archaeology](faculty_program)?
+    - How can I call the faculty_program of [linguistics and literature](faculty_program)?
+    - What is the location of the faculty_program of [design and architecture](faculty_program)?
+    - How can I contact the faculty_program of [journalism and media studies](faculty_program)?
+    - What is the contact information of the faculty_program of [finance and accounting](faculty_program)?
+    - How do I get in touch with the faculty_program of [theology and religious studies](faculty_program)?
+    - What are the contact details of the faculty_program of [veterinary medicine](faculty_program)?
+    - How can I reach the faculty_program of [music and performing arts](faculty_program)?
+    - What is the email address of the faculty_program of [environmental science and engineering](faculty_program)?
+    - How do I communicate with the faculty_program of [sociology and anthropology](faculty_program)?
+    - What are the phone numbers of the faculty_program of [forestry and wildlife](faculty_program)?
+    - How can I connect with the faculty_program of [dentistry and oral health](faculty_program)?
+    - What is the website of the faculty_program of [cybersecurity and information technology](faculty_program)?
+    - what are the contact details for faculty_program of [business management](faculty_program)
+    - what are the contact details in faculty_program of [business management](faculty_program)
+- intent: bye
+  examples: |
+    - Goodbye
+    - See you later
+    - Have a nice day
+    - Bye for now
+    - Catch you later
+    - Talk to you soon
+    - Adios
+    - Later gator
+    - Take care
+    - Farewell
+    - Have a great day
+    - Until next time
+    - Bye-bye
+    - See you again
+    - So long
+    - Have a good one
+    - Goodbye for now
+    - It was nice talking to you
+    - Peace out
+    - I'm signing off
+    - See you around
+    - Bye bye for now
+    - Toodle-oo
+    - Bye for the time being
+    - Good night
+    - Have a safe trip
+    - I'm off now
+    - See you on the flip side
+    - Catch up with you later
+    - Stay safe
+    - Have a pleasant evening
+    - See you tomorrow
+- intent: thank_you
+  examples: |
+    - Thank you for your help
+    - Thanks a lot
+    - I appreciate your assistance
+    - Thank you very much
+    - Thanks for everything
+    - Thank you for your help.
+    - I appreciate your assistance.
+    - Thanks a lot.
+    - You are awesome.
+    - Thank you very much.
+    - That was very helpful.
+    - Thanks for your time.
+    - You are the best.
+    - Thank you for the information.
+    - I'm grateful for your support.
+    - Thanks for everything.
+    - You are amazing.
+    - Thank you for your patience.
+    - I owe you one.
+    - You rock.
+    - Thank you for your kindness.
+    - Thanks for being there.
+    - You are a lifesaver.
+    - Thank you for your guidance.
+    - I'm thankful for your advice.
+    - Thanks for listening.
+    - You are a star.
+    - Thank you for your generosity.
+    - I can't thank you enough.
+    - You are wonderful.
+    - Thank you for your service.
+    - Thanks for the tip.
+    - You are a gem.
+    - Thank you for your feedback.
+    - I'm indebted to you.
+- intent: user_no
+  examples: |
+    - No
+    - No thanks
+    - No way
+    - Nope
+    - Not at all
+    - Not interested
+    - Negative
+    - Nada
+    - Nah
+    - Never
+    - Not really
+    - Absolutely not
+    - Certainly not
+    - Definitely not
+    - I don't think so
+    - I'm afraid not
+    - No thank you
+    - No sir
+    - No ma'am
+    - Of course not
+- intent: affirm
+  examples: |
+    - Yes
+    - Yes please
+    - Yes indeed
+    - Yep
+    - Yeah
+    - Sure
+    - Of course
+    - Absolutely
+    - Definitely
+    - Certainly
+    - Affirmative
+    - Yeah sure
+    - Yes sir
+    - Yes ma'am
+    - I agree
+    - I do
+    - Indeed
+    - That's right
+    - That's correct
+    - You bet
+- intent: inform_passion
+  examples: |
+    - My passion is [photography](passion), especially landscape and nature photography.
+    - I have a strong interest in [history](passion), particularly ancient civilizations and their cultures.
+    - I am really passionate about [music](passion), especially playing the guitar and writing my own songs.
+    - I love [cooking](passion) and experimenting with new recipes, it's my biggest passion.
+    - My passion is [sports](passion), particularly basketball and soccer. I like to play and watch games whenever I can.
+    - I am passionate about [environmental conservation and sustainability](passion), and I try to make conscious choices in my daily life to reduce my impact on the planet.
+    - I have a deep love for [literature](passion), especially classic novels and poetry. I enjoy analyzing and discussing the themes and symbolism in these works.
+    - My passion is [technology and innovation](passion), and I'm always interested in learning about the latest advancements and how they can be used to solve real-world problems.
+    - I am fascinated by [psychology](passion), and I enjoy learning about the human mind and behavior.
+    - My passion is [travel](passion), and I love exploring new cultures and experiencing different ways of life.
+    - My passion is [travel](passion), and I love exploring new cultures and experiencing different ways oflife.
+    - My passion is [basketball](passion), I love playing and watching games.
+    - I am passionate about [education](passion), particularly in developing countries.
+    - I have a strong interest in [astronomy](passion) and the mysteries of the universe.
+    - My passion is [fashion](passion), I love creating new looks and expressing myself through clothing.
+    - I am really interested in [politics](passion), especially how government policies affect people's lives.
+    - My passion is [gardening](passion), I love growing my own herbs and vegetables.
+    - I am passionate about [animal welfare](passion), and I volunteer at a local shelter in my free time.
+    - My passion is [yoga](passion), it helps me relax and stay centered.
+    - I have a deep love for [art](passion), especially painting and drawing.
+    - My passion is [writing](passion), I enjoy crafting stories and expressing my thoughts through words.
+    - I am passionate about [social justice](passion) and fighting for equality for all people.
+    - My passion is [science](passion), especially biology and genetics.
+    - [Leadership and innovation](passion)
+    - [Digital art](passion)
+    - [Cooking and baking](passion)
+    - [Photography and videography](passion)
+    - [Writing and storytelling](passion)
+    - [Music and singing](passion)
+    - [Sports and fitness](passion)
+    - [Travel and exploration](passion)
+    - [Social activism and community service](passion)
+    - [Technology and programming](passion)
+    - [Fashion and design](passion)
+    - [Entrepreneurship and business](passion)
+    - [Education and teaching](passion)
+    - [History and culture](passion)
+    - [Science and research](passion)
+    - [Environmental sustainability](passion)
+    - [Health and wellness](passion)
+    - [Animal rights and welfare](passion)
+    - [Artificial intelligence and machine learning](passion)
+    - [Politics and government](passion)
+    - [Philosophy and ethics](passion)
+    - [Marketing and advertising](passion)
+    - [Finance and economics](passion)
+    - [Psychology and mental health](passion)
+    - [Law and justice](passion)
+    - [Media and journalism](passion)
+    - [Performing arts and theater](passion)
+    - [Gaming](passion)
+    - [Reading](passion)
+    - [Writing](passion)
+    - [Drawing](passion)
+    - [Sculpting](passion)
+    - [Dancing](passion)
+    - [Singing](passion)
+    - [Acting](passion)
+    - [Comedy](passion)
+    - [Gardening](passion)
+    - [Hiking](passion)
+    - [Surfing](passion)
+    - [Swimming](passion)
+    - [Running](passion)
+    - [Cycling](passion)
+    - [Yoga](passion)
+    - [Meditation](passion)
+    - [Volunteering](passion)
+    - [Cooking](passion)
+    - [Baking](passion)
+    - [Mixology](passion)
+    - [Coffee](passion)
+    - [Wine](passion)
+    - [Beer](passion)
+- intent: ask_requirements
+  examples: |
+    - What are the requirements for the [BSc Honours Business Enterprise Development](faculty_program)?
+    - What qualifications do I need for [BSc Honours Human Capital Development Science](faculty_program)?
+    - What are the entry requirements for [BSc Honours Business Management Systems Design and Applications](faculty_program) faculty_program?
+    - Can you tell me the requirements for the [BSc Honours Business Marketing Informatics](faculty_program) degree?
+    - What are the prerequisites for [BSc Honours Public Relations and Marketing](faculty_program)?
+    - What qualifications do I need to apply for [BSc Honours Supply Chain Management](faculty_program)?
+    - What are the requirements for the [BSc Honours Business Enterprise Development](faculty_program)?
+    - How can I apply for the [BSc Honours Business Enterprise Development](faculty_program) faculty_program?
+    - What are the admission criteria for the [BSc Honours Business Enterprise Development](faculty_program) course?
+    - Do I need any specific qualifications to enroll in the [BSc Honours Business Enterprise Development](faculty_program) degree?
+    - What is the minimum GPA required for the [BSc Honours Business Enterprise Development](faculty_program) faculty_program?
+    - What are the prerequisites for the [BSc Honours Business Enterprise Development](faculty_program) course?
+    - What are the requirements for the [BSc Honours Business Enterprise Development](faculty_program)?
+    - Do I need any specific qualifications to enroll in the [BSc Honours Business Enterprise Development](faculty_program) degree?
+    - What is the minimum GPA required for the [BSc Honours Business Enterprise Development](faculty_program) faculty_program?
+    - What are the prerequisites for the [BSc Honours Business Enterprise Development](faculty_program) course?
+    - What are the language requirements for the [BSc Honours Business Enterprise Development](faculty_program) faculty_program?
+    - Do I need to have any work experience to join the [BSc Honours Business Enterprise Development](faculty_program) course?
+    - What are the academic requirements for the [BSc Honours Business Enterprise Development](faculty_program) degree?
+    - How many credits do I need to complete the [BSc Honours Business Enterprise Development](faculty_program) faculty_program?
+    - What are the technical requirements for the [BSc Honours Business Enterprise Development](faculty_program) course?
+    - Do I need to submit any letters of recommendation for the [BSc Honours Business Enterprise Development](faculty_program) faculty_program?
+    - What are the personal statement requirements for the [BSc Honours Business Enterprise Development](faculty_program) course?
+    - Do I need to take any tests to qualify for the [BSc Honours Business Enterprise Development](faculty_program) faculty_program?
+    - What are the requirements for the [BSc Honours Business Enterprise Development](faculty_program)
+    - What qualifications do I need for [BSc Honours Human Capital Development Science](faculty_program)
+    - What are the entry requirements for [BSc Honours Business Management Systems Design and Applications](faculty_program) faculty_program
+    - Can you tell me the requirements for the [BSc Honours Business Marketing Informatics](faculty_program) degree
+    - What are the prerequisites for [BSc Honours Public Relations and Marketing](faculty_program)
+    - What qualifications do I need to apply for [BSc Honours Supply Chain Management](faculty_program)
+    - What are the requirements for the [BSc Honours Business Enterprise Development](faculty_program)
+    - How can I apply for the [BSc Honours Business Enterprise Development](faculty_program) faculty_program
+    - What are the admission criteria for the [BSc Honours Business Enterprise Development](faculty_program) course
+    - Do I need any specific qualifications to enroll in the [BSc Honours Business Enterprise Development](faculty_program) degree
+    - What is the minimum GPA required for the [BSc Honours Business Enterprise Development](faculty_program) faculty_program
+    - What are the prerequisites for the [BSc Honours Business Enterprise Development](faculty_program) course
+    - What are the requirements for the [BSc Honours Business Enterprise Development](faculty_program)
+    - Do I need any specific qualifications to enroll in the [BSc Honours Business Enterprise Development](faculty_program) degree
+    - What is the minimum GPA required for the [BSc Honours Business Enterprise Development](faculty_program) faculty_program
+    - What are the prerequisites for the [BSc Honours Business Enterprise Development](faculty_program) course
+    - What are the language requirements for the [BSc Honours Business Enterprise Development](faculty_program) faculty_program
+    - Do I need to have any work experience to join the [BSc Honours Business Enterprise Development](faculty_program) course
+    - What are the academic requirements for the [BSc Honours Business Enterprise Development](faculty_program) degree
+    - How many credits do I need to complete the [BSc Honours Business Enterprise Development](faculty_program) faculty_program
+    - What are the technical requirements for the [BSc Honours Business Enterprise Development](faculty_program) course
+    - Do I need to submit any letters of recommendation for the [BSc Honours Business Enterprise Development](faculty_program) faculty_program
+    - What are the personal statement requirements for the [BSc Honours Business Enterprise Development](faculty_program) course
+    - Do I need to take any tests to qualify for the [BSc Honours Business Enterprise Development](faculty_program) faculty_program
+
+- intent: inform_faculty
+  examples: |
+    - I'm looking for [mathematics](faculty_program)
+    - [Psychology](faculty_program) is my interest
+    - I want to study [engineering](faculty_program)
+    - [Economics](faculty_program) is my choice
+    - I like [art](faculty_program)
+    - [Mathematics](faculty_program)
+    - [Psychology](faculty_program)
+    - [Engineering](faculty_program)
+    - [Economics](faculty_program)
+    - [Art](faculty_program)
+    - I would like to know about the [faculty of Law](faculty_program)
+    - [Faculty of Law](faculty_program)
+    - Law is the [faculty](faculty_program)
+    - [Faculty](faculty_program) Law
+    - Tell me more about the [Business](faculty_program) faculty
+    - [Business](faculty_program) is what I want to study
+    - The [faculty](faculty_program) of Business interests me
+    - I'm curious about the [History](faculty_program) faculty
+    - [History](faculty_program) is my passion
+    - The [faculty](faculty_program) of History fascinates me
+    - I'm interested in the [Computer Science and Engineering](faculty_program)
+    - [Computer Science and Engineering](faculty_program) is my choice
+    - The program of [Computer Science and Engineering](faculty_program) appeals to me
+    - I want to learn more about the [Biomedical Sciences and Engineering](faculty_program)
+    - [Biomedical Sciences and Engineering](faculty_program)
+    - The program of [Biomedical Sciences and Engineering](faculty_program)
+    - [Business Enterprise Development](faculty_program)
+    - [Human Capital Development Science](faculty_program)
+    - [Business Management Systems Design and Applications](faculty_program)
+    - [Business Marketing Informatics](faculty_program)
+    - [Public Relations and Marketing](faculty_program)
+    - [Supply Chain Management](faculty_program)
+    - I'm looking number for faculty of [Business Sciences and Management](faculty)
+    - faculty of [Business Sciences and Management] (faculty_progran)
+    - Engineering(faculty_program)
+    - [Humanities and Social Sciences] (faculty_program) department
+    - I'm from the [Law] (faculty_program) faculty
+    - [Health Sciences] (faculty_program) is my faculty
+    - faculty of [Business Sciences and Management] (faculty)
+    - [Education] (faculty) is where I study
+    - I belong to the [Arts and Design] (faculty_program) faculty
+    - [Agriculture and Veterinary Sciences] (faculty_program) is my field
+    - I'm in the [Science] (faculty_program) faculty
+    - [Architecture and Planning] (faculty_program) is my major
+    - [Digital art](faculty_program)
+    - [Cooking and baking](faculty_program)
+    - [Photography and videography](faculty_program)
+    - [Writing and storytelling](faculty_program)
+    - [Music and singing](faculty_program)
+    - [Sports and fitness](faculty_program)
+    - [Travel and exploration](faculty_program)
+    - [Social activism and community service](faculty_program)
+    - [Technology and programming](faculty_program)
+    - [Fashion and design](faculty_program)
+    - [Entrepreneurship and business](faculty_program)
+    - [Education and teaching](faculty_program)
+    - [History and culture](faculty_program)
+    - [Science and research](faculty_program)
+    - [Environmental sustainability](faculty_program)
+    - [Health and wellness](faculty_program)
+    - [Animal rights and welfare](faculty_program)
+    - [Artificial intelligence and machine learning](faculty_program)
+    - [Politics and government](faculty_program)
+    - [Philosophy and ethics](faculty_program)
+    - [Marketing and advertising](faculty_program)
+    - [Finance and economics](faculty_program)
+    - [Psychology and mental health](faculty_program)
+    - [Law and justice](faculty_program)
+    - [Media and journalism](faculty_program)
+    - [Performing arts and theater](faculty_program)
+    - [Gaming](faculty_program)
+    - [Reading](faculty_program)
+    - [Writing](faculty_program)
+    - [Drawing](faculty_program)
+    - [Sculpting](faculty_program)
+    - [Dancing](faculty_program)
+    - [Singing](faculty_program)
+    - [Acting](faculty_program)
+    - [Comedy](faculty_program)
+    - [Gardening](faculty_program)
+    - [Hiking](faculty_program)
+    - [Surfing](faculty_program)
+    - [Swimming](faculty_program)
+    - [Running](faculty_program)
+    - [Cycling](faculty_program)
+    - [Yoga](faculty_program)
+    - [Meditation](faculty_program)
+    - [Volunteering](faculty_program)
+    - [Cooking](faculty_program)
+    - [Baking](faculty_program)
+    - [Mixology](faculty_program)
+    - [Coffee](faculty_program)
+    - [Wine](faculty_program)
+    - [Beer](faculty_program)
+    
+   

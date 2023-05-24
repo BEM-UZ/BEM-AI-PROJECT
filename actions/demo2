@@ -1,0 +1,26 @@
+import difflib
+
+# A sample dictionary of terms
+dictionary = ["Business Management Sciences And Economics","Engineering and Science"]#, "Business management", "Business studies", "Business analytics", "Business law", "Business ethics", "Business communication"]
+scores = []
+# A function to query the dictionary and find possible matches
+def query_dictionary(term):
+  # Initialize an empty list to store the matches
+  matches = "none"
+  current_score = 0
+  # Loop through the dictionary and compare each term with the query
+  for word in dictionary:
+    # Calculate the similarity score between the query and the word
+    score = difflib.SequenceMatcher(None, term, word).ratio()
+    # If the score is above the threshold, add the word to the matches list
+    print(score)
+    if score > 0.7 and score > current_score:
+      current_score = score 
+      matches = word
+  # Return the matches list
+  return matches
+
+# Test the function with some queries
+print(query_dictionary("business management sciences"))
+print(query_dictionary("Business science"))
+print(query_dictionary("Business marketing"))

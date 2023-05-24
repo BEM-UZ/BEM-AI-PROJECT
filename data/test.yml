@@ -1,0 +1,33 @@
+// Get a reference to the collection
+CollectionReference reference = Firestore.instance.collection('books');
+
+// Use a StreamBuilder to display the stream data
+StreamBuilder<QuerySnapshot>(
+  // Pass the stream of snapshots
+  stream: reference.snapshots(),
+  // Build a widget based on the snapshot data
+  builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
+    // Check if there is any data
+    if (!snapshot.hasData) {
+      // Return a loading indicator if not
+      return CircularProgressIndicator();
+    }
+    // Get the list of documents from the snapshot
+    List<DocumentSnapshot> documents = snapshot.data.documents;
+    // Return a ListView widget to display the documents
+    return ListView.builder(
+      // The number of items is the length of the documents list
+      itemCount: documents.length,
+      // The itemBuilder function returns a ListTile for each document
+      itemBuilder: (BuildContext context, int index) {
+        // Get the document data
+        Map<String, dynamic> data = documents[index].data;
+        // Return a ListTile with the title and author fields
+        return ListTile(
+          title: Text(data['title']),
+          subtitle: Text(data['author']),
+        );
+      },
+    );
+  },
+);

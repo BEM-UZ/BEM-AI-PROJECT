@@ -1,0 +1,50 @@
+{
+    "BSc Honours Business Enterprise Development": {
+      "requirements": [
+        "5 O-Level subjects with a grade C or better, including English Language and Mathematics",
+        "2 A-Level subjects with a grade C or better",
+        "or equivalent qualifications"
+      ],
+      "duration": "4 years full-time"
+    },
+    "BSc Honours Human Capital Development Science": {
+      "requirements": [
+        "5 O-Level subjects with a grade C or better, including English Language and Mathematics",
+        "2 A-Level subjects with a grade C or better, preferably in science subjects",
+        "or equivalent qualifications"
+      ],
+      "duration": "4 years full-time"
+    },
+    "BSc Honours Business Management Systems Design and Applications": {
+      "requirements": [
+        "5 O-Level subjects with a grade C or better, including English Language and Mathematics",
+        "2 A-Level subjects with a grade C or better",
+        "or equivalent qualifications"
+      ],
+      "duration": "4 years full-time"
+    },
+    "BSc Honours Business Marketing Informatics": {
+      "requirements": [
+        "5 O-Levelsubjects with a grade C or better, including English Language and Mathematics",
+        "2 A-Level subjects with a grade C or better",
+        "or equivalent qualifications"
+      ],
+      "duration": "4 years full-time"
+    },
+    "BSc Honours Public Relations and Marketing": {
+      "requirements": [
+        "5 O-Level subjects with a grade C or better, including English Language and Mathematics",
+        "2 A-Level subjects with a grade C or better",
+        "or equivalent qualifications"
+      ],
+      "duration": "4 years full-time"
+    },
+    "BSc Honours Supply Chain Management": {
+      "requirements": [
+        "5 O-Level subjects with a grade C or better, including English Language and Mathematics",
+        "2 A-Level subjects with a grade C or better",
+        "or equivalent qualifications"
+      ],
+      "duration": "4 years full-time"
+    }
+  }
