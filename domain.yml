@@ -60,7 +60,9 @@ slots:
 responses:
   utter_greet:
   - text: |
-      Hello 😊, welcome to the University of Zimbabwe 🇿🇼 
+     Hello 😊, iam Kuziva
+      How are today ?
+
       I can help you with any of the following:
       🎓 About enrollment
       💰 Current fees
@@ -71,8 +73,11 @@ responses:
 
       Please let me know how I can assist you today.
 
+
   - text: |
-      Welcome 😊to the University of Zimbabwe 🇿🇼! 
+      Welcome 😊,i am Kuziva
+      How are you today ?
+
       I'm here to help you with any questions or concerns you may have about our institution.
 
       🎓 enrollment details
@@ -86,7 +91,9 @@ responses:
 
 
   - text: |
-      Welcome to the University of Zimbabwe! 🎓 How can I assist you today? 
+      Hello 👋, I am Kuziva 
+      How are you today ? 
+
       Here are some ways I can help:
 
       🎓 Admission guidance
@@ -99,7 +106,6 @@ responses:
       
        Feel free to let me know how I can assist you further.
 
-      Please feel free to ask me any questions you may have. I'm excited to help you explore all that our university has to offer and find the best path forward for your academic and professional success.
   utter_enroll:
   - text: I see you are interested in enrollment.To enroll at the University of Zimbabwe, you need to meet the minimum entry requirements and submit an online application form. You can find more information on our website.
   utter_inquire_programs:
