@@ -170,23 +170,19 @@
   },
   "human capital development and management": {
     "programs": [
-      "BSc Honours Human Capital Development Science",
-      "MSc Human Capital Development Systems",
-      "Master of Business Administration-Management"
+      "BSc Honours Human Capital Management"
     ],
     "description": "These programs involve studying how to attract, develop, motivate, and retain human talent in organizations, as well as how to manage organizational culture, change, and performance."
   },
   "business management systems design and applications": {
     "programs": [
-      "BSc Honours Business Management Systems Design and Applications",
-      "MSc International Business Management"
+      "BSc Honours Business Management Systems Design and Applications"
     ],
     "description": "These programs involve studying how to design, implement, and use information systems and data analytics to support business decision making and problem solving."
   },
   "business marketing informatics": {
     "programs": [
-      "BSc Honours Business Marketing Informatics",
-      "MSc Strategic and International Marketing"
+      "BSc Honours Business Marketing Informatics"
     ],
     "description": "These programs involve studying how to identify, understand, and satisfy the needs and wants of customers and stakeholders, as well as how to use information technology and digital media to enhance marketing strategies and communication."
   },
@@ -198,30 +194,25 @@
   },
   "creating and growing new ventures": {
     "programs": [
-      "BSc Honours Business Enterprise Development",
-      "Master of Business Administration-Entrepreneurship"
+      "BSc Honours Business Enterprise Development"
     ],
     "description": "These programs involve studying how to identify, evaluate, and exploit business opportunities, as well as how to manage the challenges and risks of starting and running new ventures."
   },
   "developing and managing human talent": {
     "programs": [
-      "BSc Honours Human Capital Development Science",
-      "MSc Human Capital Development Systems",
-      "Master of Business Administration-Management"
+      "BSc Honours Human Capital Management"
     ],
     "description": "These programs involve studying how to design, implement, and evaluate strategies and practices for attracting, developing, motivating, and retaining human talent in organizations, as well as how to manage organizational culture, change, and performance."
   },
   "designing and using business information systems": {
     "programs": [
-      "BSc Honours Business Management Systems Design and Applications",
-      "MSc International Business Management"
+      "BSc Honours Business Management Systems Design and Applications"
     ],
     "description": "These programs involve studying how to analyze, design, implement, and use information systems and data analytics to support business decision making and problem solving."
   },
   "applying information technology and digital media to marketing": {
     "programs": [
-      "BSc Honours Business Marketing Informatics",
-      "MSc Strategic and International Marketing"
+      "BSc Honours Business Marketing Informatics"
     ],
     "description": "These programs involve studying how to use information technology and digital media to enhance marketing strategies and communication, as well as how to identify, understand, and satisfy the needs and wants of customers and stakeholders in different markets."
   },
@@ -239,30 +230,26 @@
   },
   "designing and managing supply chains and logistics": {
     "programs": [
-      "BSc Honours Supply Chain Management",
-      "MSc Supply Chain Systems Design and Application"
+      "BSc Honours Supply Chain Management"
     ],
     "description": "These programs involve studying how to plan, coordinate, and optimize the flow of materials, products, services, information, and money across different stages and entities in a supply chain, as well as how to deal with uncertainties and risks."
   },
   "identifying and exploiting business opportunities": {
     "programs": [
-      "BSc Honours Business Enterprise Development",
-      "Master of Business Administration-Entrepreneurship"
+      "BSc Honours Business Enterprise Development"
     ],
     "description": "These programs involve studying how to recognize, evaluate, and pursue business opportunities, as well as how to manage the challenges and risks of starting and running new ventures."
   },
   "attracting, developing, motivating, and retaining human talent": {
     "programs": [
-      "BSc Honours Human Capital Development Science",
-      "MSc Human Capital Development Systems",
-      "Master of Business Administration-Management"
+      "BSc Honours Human Capital Management"
     ],
     "description": "These programs involve studying how to design, implement, and evaluate strategies and practices for developing and managing human capital in organizations, as well as how to manage organizational culture, change, and performance."
   },
   "using information systems and data analytics to support business decision making": {
     "programs": [
       "BSc Honours Business Management Systems Design and Applications",
-      "MSc International Business Management"
+      
     ],
     "description": "These programs involve studying how to analyze, design, implement, and use information systems and data analytics to support business decision making and problem solving."
   }
